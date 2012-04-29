@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 class Api::V1::IncidentsController < Api::BaseController
   layout false
   def create
