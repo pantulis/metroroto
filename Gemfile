@@ -10,6 +10,9 @@ gem 'geokit'
 gem 'settingslogic'
 gem 'twitter'
 
+group :production do
+  gem 'pg'
+end
 group :development do
   gem 'sqlite3'
   gem 'mysql2'
