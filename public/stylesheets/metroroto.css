@@ -1,0 +1,1044 @@
+
+@font-face {
+	font-family: 'YanoneRegular';
+	src: url('../fonts/yanonekaffeesatz-regular-webfont.eot');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'YanoneRegular';
+	src: url(//:) format('no404'), url('../fonts/yanonekaffeesatz-regular-webfont.woff') format('woff'), url('../fonts/yanonekaffeesatz-regular-webfont.ttf') format('truetype'), url('../fonts/yanonekaffeesatz-regular-webfont.svg#webfontgQAm5Ofa') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'YanoneBold';
+	src: url('../fonts/yanonekaffeesatz-bold-webfont.eot');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'YanoneBold';
+	src: url(//:) format('no404'), url('../fonts/yanonekaffeesatz-bold-webfont.woff') format('woff'), url('../fonts/yanonekaffeesatz-bold-webfont.ttf') format('truetype'), url('../fonts/yanonekaffeesatz-bold-webfont.svg#webfontgQAm5Ofa') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  COMMON STYLES
+##############################################################################################################################*/
+
+body {
+	font-family: Arial ,Verdana , Helvetica, sans-serif;
+	font-size: x-small;
+	font-variant:normal;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1.5em;
+	background:#D5E2F2;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size:x-small;
+}
+
+.accesible {
+	display: none;
+}
+
+fieldset {
+	border: none;
+}
+
+
+a {
+	color: #337CC5;
+	text-decoration:none;
+	outline:none;
+}
+
+p a {
+  font-size:inherit;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+ul {
+  list-style:none;
+}
+
+
+select {
+  font-size:1em;
+}
+
+h2,
+h3 {
+  font-family:'YanoneRegular', Arial, Helvetica, sans-serif;
+  font-size:2.8em;
+  color:#3383D3;
+  font-weight:normal;
+  line-height:normal;
+  clear:both;
+/*  text-shadow:1px 1px 1px #CCC;*/
+}
+
+
+
+
+.wrapper{
+  width:91em;
+  padding:2.5em;
+  margin:0 auto;
+} 
+
+button {
+  background: #F53333 url('../images/button_bg_tile.png') repeat-x top left;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -border-radius:3px;
+  padding:3px 10px 4px 10px;
+  line-height:normal;
+  border:none;
+  font-size:1.3em;
+  color:#FFF;
+  font-weight:bold;
+  float:right;
+  clear:both;
+  outline:none;
+}
+
+button .sending {
+  background: url('../images/ajax-loader.gif') no-repeat left center;
+  padding-left:20px;
+  
+}
+
+button span {
+  font-size:1em;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  HEADER
+##############################################################################################################################*/
+
+#header {
+  height:5.6em;
+  left:50%;
+  margin:5em 0 0 -48em;
+  width:91em;
+  padding:2.5em;
+  z-index:10000000;
+  position:absolute;
+  background:#FFF;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#header div{
+  float:left;
+}
+
+#header div a {
+  display:block;
+  width:12em;
+  height:3.1em;
+  background:url('../images/logo.gif') no-repeat;
+  text-indent:-9999em;
+}
+
+#header div h1 {
+  display:block;
+  font-size:1.1em;
+  color:#999999;
+  font-weight:normal;
+  padding-top:.4em;
+}
+
+#header ul {
+  float:right;
+  display:inline;
+  width:40em;
+  background:url('../images/menu_bg.gif') no-repeat top right ;
+  margin-right:-4.4em;
+  padding-bottom:4em;
+}
+
+#header ul li{
+  float:left;
+  display:inline;
+  list-style:none;
+  padding:1.2em 2em ;
+  background:#F53333 url('../images/menu_border_tile.gif') repeat-y top right;
+}
+
+#header ul li a{
+  color:#FFF;
+  font-weight:bold;
+  font-size:1.3em;
+}
+
+#header ul li.lines {
+  position:relative;
+}
+
+#header ul ul{
+  display:none;
+/*  display:block;*/
+  left:0;
+  position:absolute;
+  top:40px;
+  width:14em;
+  padding:2em 1.5em 1.5em;
+  background:#FFF;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+#header ul ul li {
+  float:none;
+  display:block;
+  padding:0 0 1em .4em;
+  background:none;
+}
+
+#header ul ul li a{
+  color:#666;
+  font-size:1.2em;
+}
+
+#header ul ul li a:hover{
+  text-decoration:none;
+  color:#333;
+}
+
+#header ul ul li a span{
+  font-size:.9em;
+  width:20px;
+  padding:.2em 0;
+} 
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  MAP
+##############################################################################################################################*/
+
+#map_canvas {
+  z-index:1;
+  position:absolute;
+  left:0;
+  top:5em;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  CONTENT 
+##############################################################################################################################*/
+#cont_wrap{
+  width:100%;
+  position:relative;
+  z-index:10000;
+  top:780px;
+}
+
+#content {
+  margin: 0 auto;
+  overflow:hidden;
+  background:#FFF;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  -border-radius:10px;
+  margin-bottom:7px;
+  position:relative;
+  z-index:10000;
+  padding-bottom:70px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  LINES
+##############################################################################################################################*/
+
+.status_panel {
+  position:fixed;
+  width:100%;
+/*  top:120px;*/
+  top:0px;
+  left:0;
+  z-index:100000000000;
+/*  background:#F53333;*/
+  background:#FFF;
+  padding:1.5em 0 .2em 0;
+  border:none;
+  margin:0;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  -moz-box-shadow: 0 -2px 5px #CCC;
+  -webkit-box-shadow: 0 -2px 5px #CCC;
+  -box-shadow: 0 -2px 5px #CCC;
+}
+
+.status_panel h2 {
+  display:none;
+}
+
+.lines_status {
+  overflow:hidden;
+  width:111em;
+  margin:0 auto;
+}
+
+.lines_status li {
+  float:left;
+  display:inline;
+  width:8.5em;
+  padding-bottom:1.5em;
+  overflow:hidden;
+  cursor:pointer;
+}
+
+.lines_status li a:hover{
+  text-decoration:none;
+}
+
+.lines_status li .line_number {
+  margin-right:.2em;
+  font-size:1.1em;
+  width:20px;
+  height:12px;
+  padding-top:3px;
+}
+
+.lines_status li span {
+  background-image: url('../images/line_status_icons.gif');
+  background-repeat: no-repeat;
+  display:inline-block;
+  width:44px;
+  height:15px;
+  text-indent:-99999em;
+}
+
+.lines_status li span.ok{
+   
+  background-position: -2px -19px;  
+}
+
+.lines_status li span.breakdown_1{
+  background-position: -2px -37px;
+}
+
+.lines_status li span.breakdown_2{  
+  background-position: -2px -2px; 
+}
+
+.line_number {
+  display:inline-block;
+  width:26px;
+  height:15px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:1.3em;
+  font-weight:bold;
+  padding:.4em 0;
+  margin-right:0.5em;
+}
+
+.line_1{
+	background-color:#2DBEF0;
+	border-color:#2DBEF0;
+	color:#FFF;
+}
+.line_2{
+	background-color:#ED1C24;
+	border-color:#ED1C24;
+	color:#FFF;
+}
+
+.line_3 {
+	background-color:#FFD000;
+	border-color:#FFD000;
+	color:#FFF;
+}
+.line_4{
+	background-color:#B65518;
+	border-color:#B65518;
+	color:#FFF;
+}
+.line_5{
+	background-color:#8FD400;
+	border-color:#8FD400;
+	color:#FFF;
+}
+.line_6{
+	background-color:#98989B;
+	border-color:#98989B;
+	color:#FFF;
+}
+.line_7{
+	background-color:#EE7518;
+	border-color:#EE7518;
+	color:#FFF;
+}
+.line_8{
+	background-color:#EC82B1;
+	border-color:#EC82B1;
+	color:#FFF;
+}
+.line_9 {
+	background-color:#A60084;
+	border-color:#A60084;
+	color:#FFF;
+}
+
+.line_10{
+	background-color:#005AA9;
+	border-color:#005AA9;
+	color:#FFF;
+}
+.line_11{
+	background-color:#009B3A;
+	border-color:#009B3A;
+	color:#FFF;
+}
+.line_12{
+	background-color:#A49800;
+	border-color:#A49800;
+	color:#FFF;
+}
+.line_R{
+  border:1px solid #000;
+  width:24px;
+  height:13px;
+}
+
+
+
+
+ul#last_incidents p{
+  font-size:1.3em;
+  color:#666;
+  overflow:hidden;
+}
+
+
+ul#last_incidents p .line_number,
+ul#last_incidents p span.station,
+ul#last_incidents p .timeago,
+ul#last_incidents p .message{
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline;  
+}
+
+ul#last_incidents p .message {
+  width:35em;
+  font-size:1em;
+  border-left:1px solid #CCC;
+  padding-left:.8em;
+}
+
+ul#last_incidents p span.station{
+  display:inline-block;
+  vertical-align:middle;
+  padding-right:.5em;
+  margin-right:.4em;
+  font-size:1em;
+  border-right:1px solid #CCC;
+}
+
+ul#last_incidents p span.station span,
+ul#last_incidents p .timeago{
+  font-size:1em;
+  color:#999;
+}
+
+ul#last_incidents p .timeago{
+  padding-right:.5em;
+}
+
+ul#last_incidents p span.station strong{
+  font-size:1em;
+}
+
+p.tag_line{
+	padding-bottom: 1em;
+	font-size:1.3em;
+  color:#666;
+}
+
+ul#last_incidents p .line_number {
+  font-size:1em;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  FOOTER
+##############################################################################################################################*/
+
+#footer {
+  padding-top:0;
+  z-index:100;
+  position:relative;
+}
+
+#footer p {
+  float:left;
+  color:#666;
+  font-size:1.2em;
+}
+
+#footer ul {
+  float:right;
+  display:inline;
+  padding-right:9em;
+  width:300px;
+  text-align:right;
+}
+
+#footer ul li{
+  display:inline;
+}
+
+#footer ul li a{
+  font-size:1.2em;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  FORM NEW INCIDENT
+##############################################################################################################################*/
+
+form#new_incident{
+  width:42.3em;
+  float:left;
+  clear:left;
+	padding-right: 2.5em;
+}
+
+form#new_subscription{
+	width: 42.5em;
+	float: right;
+}
+
+form#new_incident p,
+form#new_subscription p,
+form fieldset {
+	padding: 0 0 1.5em 0;
+}
+
+form#new_incident p.line {
+  float:left;
+  clear:left;
+}
+
+form#new_incident label,
+form#new_subscription label {
+	font-size: 1.4em;
+	display:block;
+	color: #333;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+
+form#new_subscription div.lines label{
+	display: inline;
+}
+form#new_incident input,
+form#new_subscription input  {
+  outline:none;
+	font-size:1.4em;
+	border:1px solid #CCC;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-border-radius:4px;
+	padding:.2em .7em .3em .7em;
+	color:#666;
+  font-size:1.3em;
+  -moz-box-shadow:inset 1px 1px 5px #EEEEEE, 1px 1px 5px #EEEEEE ;
+  -webkit-box-shadow:inset -1px -1px 2px #EEEEEE, 1px 1px 5px #EEEEEE ;
+  -box-shadow:inset -1px -1px 2px #EEEEEE, 1px 1px 5px #EEEEEE ;
+}
+
+form input#incident_comment,
+form input#subscription_email {
+  width:31.1em;
+}
+
+form#new_incident option{
+  color:#666;
+  font-size:1.1em;
+  padding:0 5px 2px 5px;
+}
+
+form#new_incident #uniform-incident_comment,
+form#new_incident #uniform-incident_comment select {
+  width:290px;
+} 
+
+form#new_incident #uniform-incident_comment span{
+  width:260px;
+}
+
+form#new_incident .selector span {
+  font-size:1.1em;
+}
+
+form#new_incident div {
+  margin:0;
+}
+
+form#new_incident .direction {
+  overflow:hidden;
+}
+
+form#new_incident .direction span{
+  float:left;
+  display:inline;
+  padding-right:15px;
+  width:150px;
+}
+
+form#new_incident .direction span label {
+  white-space:nowrap;
+  font-weight:normal;
+  font-size:1.3em;
+  display:block;
+  padding-top:1px;
+}
+
+form#new_incident .direction span .radio {
+  margin-right:5px;
+}
+
+form#new_incident .direction span span{
+  width:auto;
+  padding:0;
+}
+
+form#new_subscription div.lines{
+	padding: 1.5em 0;
+}
+
+form#new_subscription p.all {
+	width: 10em;
+	float:left;
+}
+form#new_subscription ul.lines {
+	margin-left: 10em;
+	padding-top:.4em;
+}
+
+form#new_subscription ul.lines li{
+	width: 10em;
+	display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+
+form#new_subscription ul.lines li .checker {
+  margin-right:3px;
+}
+
+form#new_subscription ul.lines li label{
+  padding-top:3px;
+  font-weight:normal;
+}
+
+
+form#new_subscription ul.lines li.all{
+  margin-left:-10.3em;
+}
+
+div#data p.subscription_notice{
+	font-size: 1.5em;
+	color: #F53333;
+}
+
+form label.error {
+  display:none!important;
+}
+
+/*form span.error,*/
+form .validation_msg {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  padding:.4em .7em 0 .7em;
+  background:#FFFD8B;
+  margin-bottom:1em;
+  line-height:normal;
+}
+
+form .validation_msg span{
+  font-size:1.1em;
+  display:block;
+  padding-bottom:.3em;
+}
+
+#new_subscription .success,
+form .validation_msg.success{
+  display:block;
+  text-align:center;
+  padding-top:2.5em;
+  font-size:2.5em;
+  color:#3383D3;
+  font-weight:normal;
+  font-family:'YanoneRegular', Arial, Helvetica, sans-serif;
+  background:#FFF;
+}
+
+form .validation_msg.success{
+  padding-top:0.5em;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  LINE - show
+##############################################################################################################################*/
+
+.line_show h2 {
+  font-size:47px;
+  padding-bottom:7px;
+}
+
+.line_show h2 strong{
+  font-size:47px;
+  font-family:'YanoneBold';
+  font-weight:normal;
+}
+
+.line_stations{
+  float:left;
+  clear:both;  
+  padding:0 .7em 2.5em 0;
+  background:url('../images/line_segment_end.gif') no-repeat right top;
+}
+
+.line_stations li{
+  background:url('../images/line_segment.gif') repeat-x left top;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  width:2.6em;
+  padding-top:5px;
+}
+
+li.red {
+  background-position:-202px top;
+}
+
+li.yellow {
+  background-position:-101px top;
+}
+
+.line_stations li p {
+  behavior:url('../javascripts/-ms-transform.htc');
+  width:2.5em;
+  height:8.3em;
+  margin-left:-2em;
+  white-space:nowrap;
+  font-size:1.2em;
+  -moz-transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  text-align:left;
+  color:#666;
+}
+
+
+.line_show span.breakdown_1,
+.line_show span.breakdown_2,
+.line_show span.ok {
+  width:9.3em;
+  height:3.4em;
+  background:url('../images/line_status_big.png') no-repeat top left;
+  display:block;
+  text-indent:-99999em;
+}
+
+.line_show span.ok {
+  background-position:left top;
+}
+
+.line_show span.breakdown_1 {
+  background-position:-101px top;
+}
+
+.line_show span.breakdown_2 {
+  background-position:-195px top;
+}
+
+
+a.line{
+	color: #FFF;
+	background: #1F5570;
+	text-decoration: underline;
+	padding: 0.15em 0.3em;
+}
+a.line:hover{
+	color: #FF9900;
+
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  INFO WINDOW IN MAPS
+##############################################################################################################################*/
+
+.map_pop ul{
+  max-height:300px;
+  overflow:auto;
+}
+
+.map_pop li {
+  overflow:hidden;
+  padding-bottom:10px;
+}
+
+.map_pop .station{
+  color:#3383D3;
+  font-weight: normal;
+  font-size: 2.3em;
+  display:block;
+  padding-bottom:1em;
+  font-family:'YanoneRegular', Arial, Helvetica, sans-serif;
+}
+
+.map_pop .line_number{
+  float:left;
+}
+
+.map_pop .date{
+  color:#aaa;
+  font-size:1.1em;
+  font-weight:normal;
+}
+
+.map_pop p{
+  margin-left:35px;
+}
+
+.map_pop .comment {
+  font-size:1.3em;
+  color:#666;
+  font-weight:bold;
+}
+
+.map_pop .comment span{
+  font-weight:normal;
+  font-size:inherit;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  last incidents
+##############################################################################################################################*/
+
+ul#last_incidents {
+	padding-bottom:2em;
+	font-size: 1.3em;
+	list-style:none outside none;
+	color: #888;
+	clear:both;
+}
+
+ul#last_incidents li{
+	padding:0.3em 0;
+	overflow:hidden;
+}
+
+ul#last_incidents li .line_number {
+  float:left;
+  display:inline;
+  margin-top:0.3em;
+}
+
+ul#last_incidents li div {
+  margin-left:3.6em;
+  border-left:1px solid #eee;
+  padding-left:10px;
+}
+
+ul#last_incidents .view_more {
+  font-size:1.2em;
+}
+
+
+.map_pop li {
+  display:block!important;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  STYLES FOR PAGES
+##############################################################################################################################*/
+
+body.page #header{
+  margin-top:0;
+  z-index:100000;
+  position:relative;
+  
+}
+
+body.page #map_canvas{
+  position:absolute;
+  z-index:0;
+  top:0;
+  left:0;
+}
+
+body.page #cont_wrap{
+  margin-top:0;
+  top:6em;
+}
+
+body.page #content{
+  padding-top:0;
+}
+
+body.page #content h2{
+  padding:1em 0 .4em 0;
+}
+
+
+body.page #content p{
+  font-size:1.4em;
+  color:#888;
+  padding-bottom:1em;
+  line-height:1.25em;
+}
+
+body.page #content strong{
+  font-size:inherit;
+}
+
+body.page #content p.example{
+  padding:1em .8em;
+  background:#eee;
+  margin-bottom:1em;
+}
+
+body.page #content .section,
+body.page #content .aside{
+  padding-bottom:2.4em;
+  display:inline;
+}
+
+body.page #content .section{
+  width:54em;
+  float:left;
+  clear:left;
+}
+
+body.page #content .aside{
+  width:33em;
+  float:right;
+}
+
+
+body.page #content h3{
+  font-size:2.2em;
+  padding:.8em 0 .4em 0;
+  color:#666;
+}
+
+
+body.page #content .separator{
+  width:100%;
+  clear:both;
+  margin-top:4em;
+  padding-bottom:1em;
+  height:1px;
+  border-top:1px solid #eee;
+}
+
+body.page #content .separator hr{
+  display:none;
+}
+
+
+.rss {
+  width:7.2em;
+  height:3.9em;
+  display:block;
+  background: url('../images/buttons.png') no-repeat bottom left;
+  text-indent:-9999em;
+  position:absolute;
+  top:-12px;
+  right:25px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------
+  Head alert (prone to be buggy)
+##############################################################################################################################*/
+
+#header .alert {
+  position: absolute;
+  top: 13em;
+  right:0;
+  height: 8em;
+  padding: 2em;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  background: #fff;
+  z-index: -1;
+}
+
+body.page #header .alert {
+  display: none;
+}
+
+#header .alert h2 {
+  color: #F53333;
+}
+
+#header .alert .heading {
+  margin: 0;
+  font-size: 1.6em;
+}
+
+#header .alert p {
+  margin-top: 1em;
+  font-size: 1.2em;
+}

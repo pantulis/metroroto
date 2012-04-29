@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="<%= set_description %>" />
+  <meta name='keywords' content='<%= set_keywords %>' />
+<meta name="google-site-verification" content="zTxSQl7l9ztqaIVL6kmzqAsnjAPV6pMIAUNdmoROkSk" />
+  <title><%= get_title%></title>
+
+   <%= stylesheet_link_tag "metroroto", "uniform.default" %>
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=<%=Settings.google_key%>" type="text/javascript"></script>
+
+<%= auto_discovery_link_tag(:atom, {:action => params[:action], :format => :atom}, {:title => "Atom Feed"}) %>
+
+</head>
+
+<body>
+  
+  <%= render :partial => 'shared/header' %>
+  
+  <div class="status_panel">
+    <h2>Estado de las líneas</h2>
+    <ul class="lines_status">
+    		<%=render :partial => "home/line", :collection => Line.find(:all)%>
+    </ul>
+  </div><!-- .status_panel -->
+  
+  <div id="map_canvas" style="width:100%; height:900px"></div>
+  
+  <div id="cont_wrap">
+    
+    <%= yield%>
+    
+    <%= render :partial => 'shared/footer' %>
+    
+  </div><!-- #wrapper -->
+	
+	
+	
+	
+	
+	<%= javascript_include_tag 'jquery', 'jquery.validate', 'jquery.uniform.min', 'jquery.scrollTo-min',  'jquery.timeago',  'application', 'jrails' %>
+  <%= yield :js_includes %>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16859272-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+

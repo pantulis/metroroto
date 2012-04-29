@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+<div id="header">
+  
+  <div>
+    <a href="/">Metroroto</a>
+    <h1>Conoce las últimas incidencias en el Metro de Madrid</h1>
+  </div>
+  
+  <ul>
+    <li><a href="<%=root_path%>#content">Incidencias (<%=Incident.last_incidents.size%>)</a></li>
+    <li class="lines">
+      <a href="#">Lineas</a>
+      <ul>
+	  <% @lines.each do |line| %>
+            <li><a href="<%= line_path line %>"> 
+            <span class="line_number line_<%= line.number %>"><%= line.number %></span>Linea <%= line.number %></a></li>
+	  <% end %>
+      </ul>
+    </li>
+    <li><a href="<%=root_path%>about">¿Cómo se usa?</a></li>
+  </ul>
+  
+  <!-- <div class="alert">
+    <h2>Paros anunciados</h2>
+    <p class="heading">28, 29 y 30 de Junio</p>
+    <p>Servicios mínimos del 50%</p>
+  </div> -->
+</div><!-- .header -->

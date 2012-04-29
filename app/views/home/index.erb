@@ -1,0 +1,40 @@
+<div id="content" class="wrapper">
+  <h2>Últimas incidencias</h2>
+<p class="tag_line">Incidencias recibidas en las últimas horas o que siguen sin solucionarse</p>
+  <div id="incidents">
+  	<%= render :partial => 'incidents/last_incidents' %>
+  </div>
+  
+  <%= render :partial => 'incidents/new' %>
+  <%= render :partial => 'subscriptions/new' %>
+  
+</div><!-- content -->
+
+
+
+<% content_for :js_includes do %>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+    
+    	if (GBrowserIsCompatible()) {
+          map = new GMap2(document.getElementById("map_canvas"));
+          map.setCenter(new GLatLng(40.3932909, -3.7003454), 12);
+          map.addControl(new GSmallMapControl());
+          <%= incident_markers_grouped_by_station @incidents %>
+    
+    	//Create new Tile Layer
+    	  var gTileUrlTemplate = 'http://mt1.google.com/vt/lyrs=m@121,transit|vm:1&hl=en&opts=r&x={X}&y={Y}&z={Z}';
+    	  var tileLayerOverlay = new GTileLayerOverlay(
+    	    new GTileLayer(null, null, null, {
+    	      tileUrlTemplate: gTileUrlTemplate,
+    	      isPng:true,
+    	      opacity:0.8
+    	    })
+    	  );
+    	  map.addOverlay(tileLayerOverlay);
+        }
+
+    });
+
+  </script>
+<% end %>
