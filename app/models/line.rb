@@ -1,7 +1,7 @@
 class Line < ActiveRecord::Base
   has_many :incidents, :order => "date DESC"
   has_many :line_stations
-  has_many :stations, :through => :line_stations
+  has_many :stations, :through => :line_stations, :order => 'line_stations.id ASC'
   has_many :subscriptions, :dependent =>:destroy
 
   attr_accessible :name, :number, :colour, :center_lat, :center_long, :zoom
