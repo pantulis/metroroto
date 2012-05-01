@@ -52,11 +52,16 @@ Metroroto::Application.routes.draw do
 
   resources :lines
 
-  # FIXME mirar las nuevas rutas de Rails 3, esto era un resources :lines, :has_many => [:stations, :incidents]
+  # FIXME mirar las nuevas rutas de Rails 3.1, esto era un resources :lines, :has_many => [:stations, :incidents]
   match '/lines/:line_id/stations' => 'stations#index'
   match '/lines/:line_id/incidentes' => 'incidents#index'
 
-  resources :incidents
+  resources :incidents do
+    collection do 
+      get :metrorotos
+    end
+  end
+
   resources :stations
   resources :subscriptions
 
