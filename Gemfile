@@ -10,9 +10,14 @@ gem 'geokit'
 gem 'settingslogic'
 gem 'twitter'
 
+gem 'formtastic', '~> 2.1.1'
+gem 'activeadmin'
+gem 'meta_search', '>= 1.1.0.pre'
+
 group :production do
   gem 'pg'
 end
+
 group :development do
   gem 'sqlite3'
   gem 'mysql2'
