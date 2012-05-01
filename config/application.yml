@@ -1,5 +1,6 @@
 defaults: &defaults
   app:
+    metroroto_hashtag: "metroroto_stag"
     admin_email: "noreply@metroroto.com"
   google_key: ABQIAAAAScZd0t0Z0iHa3k8zvpRwsBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxQohyjT4ULl3Evlr-R-t-LyrhOozA
 
