@@ -16,13 +16,18 @@ class Metrotwitt
 
     mention_twitts = Twitter.search('@metroroto', :since_id => since)
     mention_twitts.reverse! #Esto se hace para que guarde primero los más antiguos, y se retwitteen en orden.
-    Rails.logger.info "Cargando #{mention_twitts.size} nuevos twitts"
+
+
+    new_tweets = 0
+
     mention_twitts.each do |twitt|
-      self.parse_twitt(twitt) unless (twitt.from_user == "metroroto" || Incident.find_by_twitter_id(twitt["id"]) || twitt.text.match("RT"))
+      if !(twitt.from_user == "metroroto" || Incident.find_by_twitter_id(twitt["id"]) || twitt.text.match("RT")) then
+        self.parse_twitt(twitt) 
+        new_tweets = new_tweets + 1
+      end
     end
 
-    return twitts.length
-
+    return new_tweets
   end
 
   def self.parse_twitt(twitt)
