@@ -8,5 +8,10 @@ class IncidentsController < ApplicationController
     @incidents = Incident.last_incidents
     render :partial => "last_incidents"
   end
+
+  def metrorotos
+    count = Metrotwitt.last_metrorotos
+    render :text => "Parsed #{count} twitts"
+  end
 end
 
