@@ -1,21 +1,27 @@
 # encoding: utf-8
 
 class Metrotwitt
-  require 'twitter'
+
   def self.last_metrorotos(interval=5.minutes)
     since = [Incident.last_twitterid || 0,FailedTwitt.last_twitterid || 0].max || 0
-    twitts = Twitter::Search.new('#metroroto').since(since).fetch().results
+
+    twitts = Twitter.search('#metroroto', :since_id => since)
+
     twitts.reverse! #Esto se hace para que guarde primero los más antiguos, y se retwitteen en orden.
-    puts "Cargando #{twitts.size} nuevos twitts"
+    Rails.logger.info "Cargando #{twitts.size} nuevos twitts" unless twitts.size == 0
+
     twitts.each do |twitt|     
       self.parse_twitt(twitt) unless (twitt.from_user == "metroroto" || Incident.find_by_twitter_id(twitt["id"]) || twitt.text.match("RT"))
     end
-    mention_twitts = Twitter::Search.new('@metroroto').since(since).fetch().results
+
+    mention_twitts = Twitter.search('@metroroto', :since_id => since)
     mention_twitts.reverse! #Esto se hace para que guarde primero los más antiguos, y se retwitteen en orden.
-    puts "Cargando #{mention_twitts.size} nuevos twitts"
+    Rails.logger.info "Cargando #{mention_twitts.size} nuevos twitts"
     mention_twitts.each do |twitt|
       self.parse_twitt(twitt) unless (twitt.from_user == "metroroto" || Incident.find_by_twitter_id(twitt["id"]) || twitt.text.match("RT"))
     end
+
+    return twitts.length
 
   end
 
@@ -172,15 +178,17 @@ class Metrotwitt
   end
 
   def self.retwitt(incident)
-    puts "Retwitt..."
+    Rails.logger.info "Retwitt..."
+    metroroto_hashtag = Settings.app.metroroto_hashtag
+
     unless Rails.env=="test"
       user = incident.user ? "by @#{incident.user}" : ""
-      with_metroroto = incident.user ? "" : "#metroroto"
+      with_metroroto = incident.user ? "" : "#{metroroto_hashtag}"
       begin
         Twitter.update("#{with_metroroto} ##{incident.station.nicename.gsub("-","")}
         #l#{incident.line.number} #{incident.comment} #{user}")
       rescue Exception => e
-        puts "No se ha podido retwittear la incidencia #{incident.id} por alguna razón: #{e}"
+        logger.error "No se ha podido retwittear la incidencia #{incident.id} por alguna razón: #{e}"
       end
     end
   end
