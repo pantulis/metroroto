@@ -31,6 +31,7 @@ class Metrotwitt
   end
 
   def self.parse_twitt(twitt)
+
     normalized_text = twitt.text.strip.gsub("\n","")
     text_arr=normalized_text.scan(/([^#]*)\s*#(\S*)\s#(\S*)\s?#?(\S*)\s*(.*)/).flatten
     text = normalized_text
@@ -151,6 +152,7 @@ class Metrotwitt
       end
     end
 
+    Rails.logger.debug("#{incident.inspect}")
 
     if incident.station && incident.line_id
       incident.station_string = station_string
@@ -159,7 +161,11 @@ class Metrotwitt
     else
       # aleprosos que no encuentra nada
       station_string ||= ""
-      fail = FailedTwitt.new(:twitter_id => incident.twitter_id, :date => incident.date, :user => incident.user, :station_string => station_string, :twitt_body => text )
+
+      fail = FailedTwitt.new(:twitter_id => incident.twitter_id, 
+                             :date => incident.date, :user => incident.user, 
+                             :station_string => station_string, 
+                             :twitt_body => text )
       if incident.line_id
         fail.line_id = incident.line_id
       end
