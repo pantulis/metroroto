@@ -32,11 +32,11 @@ class Metrotwitt
 
   def self.parse_twitt(twitt)
 
-    normalized_text = twitt.text.strip.gsub("\n","")
+    normalized_text = twitt["text"].strip.gsub("\n","")
     text_arr=normalized_text.scan(/([^#]*)\s*#(\S*)\s#(\S*)\s?#?(\S*)\s*(.*)/).flatten
     text = normalized_text
     incident = Incident.new(:source => Incident::SOURCE[:twitter])
-    #Transformamos la fecha del twitt, que viene en utc, a nuestra hora local
+    # Transformamos la fecha del twitt, que viene en utc, a nuestra hora local
     incident.date = twitt["created_at"].to_time.getlocal
     incident.user = twitt["from_user"]
     incident.twitter_id = twitt["id"]
@@ -162,6 +162,7 @@ class Metrotwitt
       incident.station_string = station_string
       incident.comment = text_arr.blank? ? text.gsub(/#(.*)/,'') : text_arr.join(' ')
       incident.save! unless Incident.find_by_twitter_id(twitt["id"])
+      res = true
     else
       # aleprosos que no encuentra nada
       station_string ||= ""
@@ -174,8 +175,9 @@ class Metrotwitt
         fail.line_id = incident.line_id
       end
       fail.save!
+      res = false
     end
-
+    res
   end
 
   def self.search_stations(name,stations)
@@ -196,7 +198,7 @@ class Metrotwitt
     Rails.logger.info "Retwitt..."
     metroroto_hashtag = Settings.app.metroroto_hashtag
 
-    unless Rails.env=="test"
+    unless Rails.env == "test"
       user = incident.user ? "by @#{incident.user}" : ""
       with_metroroto = incident.user ? "" : "#{metroroto_hashtag}"
       begin
