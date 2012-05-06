@@ -11,6 +11,9 @@ class Metrotwitt
     Rails.logger.info "Cargando #{twitts.size} nuevos twitts" unless twitts.size == 0
 
     twitts.each do |twitt|     
+
+      Rails.logger.info("Analizando #{twitt.inspect}")
+
       self.parse_twitt(twitt) unless (twitt.from_user == "metroroto" || Incident.find_by_twitter_id(twitt["id"]) || twitt.text.match("RT"))
     end
 
@@ -198,18 +201,17 @@ class Metrotwitt
     Rails.logger.info "Retwitt..."
     metroroto_hashtag = Settings.app.metroroto_hashtag
 
-    unless Rails.env == "test"
-      user = incident.user ? "by @#{incident.user}" : ""
-      with_metroroto = incident.user ? "" : "#{metroroto_hashtag}"
-      begin
-        str = ("#{with_metroroto} ##{incident.station.nicename.gsub("-","")} #l#{incident.line.number} #{user} #{incident.comment}" )
-        Twitter.update(str[0..139])
-        Rails.logger.info "TWEET: #{str[0..139]}"
-      rescue Exception => e
-        Rails.logger.error "No se ha podido retwittear la incidencia #{incident.id} por alguna razón: #{e}"
-      end
+    user = incident.user ? "by @#{incident.user}" : ""
+    with_metroroto = incident.user ? "" : "#{metroroto_hashtag}"
+    begin
+      str = ("#{with_metroroto} ##{incident.station.nicename.gsub("-","")} #l#{incident.line.number} #{user} #{incident.comment}" )
+      Twitter.update(str[0..139]) unless Rails.env == "test"
+      Rails.logger.info "TWEET: #{str[0..139]}"
+    rescue Exception => e
+      Rails.logger.error "No se ha podido retwittear la incidencia #{incident.id} por alguna razón: #{e}"
     end
   end
+
 
   private
 
