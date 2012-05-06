@@ -1,0 +1,105 @@
+--- 
+lines_1: 
+  id: 1
+  number: "1"
+  name: Linea 1
+  colour: "#2DBEF0"
+  center_lat: 40.4023
+  center_long: -3.66428
+  zoom: 11
+lines_2: 
+  id: 2
+  number: "2"
+  name: Linea 2
+  colour: "#ED1C24"
+  center_lat: 40.4291
+  center_long: -3.68222
+  zoom: 13
+lines_3: 
+  id: 3
+  number: "3"
+  name: Linea 3
+  colour: "#FFD000"
+  center_lat: 40.373
+  center_long: -3.69381
+  zoom: 12
+lines_4: 
+  id: 4
+  number: "4"
+  name: Linea 4
+  colour: "#B65518"
+  center_lat: 40.4432
+  center_long: -3.67716
+  zoom: 13
+lines_5: 
+  id: 5
+  number: "5"
+  name: Linea 5
+  colour: "#8FD400"
+  center_lat: 40.4072
+  center_long: -3.68814
+  zoom: 12
+lines_6: 
+  id: 6
+  number: "6"
+  name: Linea 6
+  colour: "#98989B"
+  center_lat: 40.4113
+  center_long: -3.69621
+  zoom: 13
+lines_7: 
+  id: 7
+  number: "7"
+  name: Linea 7
+  colour: "#EE7518"
+  center_lat: 40.426
+  center_long: -3.63098
+  zoom: 12
+lines_8: 
+  id: 8
+  number: "8"
+  name: Linea 8
+  colour: "#EC82B1"
+  center_lat: 40.4511
+  center_long: -3.62823
+  zoom: 13
+lines_9: 
+  id: 9
+  number: "9"
+  name: Linea 9
+  colour: "#A60084"
+  center_lat: 40.3298
+  center_long: -3.57399
+  zoom: 11
+lines_10: 
+  id: 10
+  number: "10"
+  name: Linea 10
+  colour: "#005AA9"
+  center_lat: 40.391
+  center_long: -3.69278
+  zoom: 11
+lines_11: 
+  id: 11
+  number: "11"
+  name: Linea 11
+  colour: "#009B3A"
+  center_lat: 40.3639
+  center_long: -3.73672
+  zoom: 14
+lines_12: 
+  id: 12
+  number: "12"
+  name: Linea 12
+  colour: "#A49800"
+  center_lat: 40.2777
+  center_long: -3.80127
+  zoom: 12
+lines_13: 
+  id: 13
+  number: R
+  name: Linea R
+  colour: FFFFFF
+  center_lat: 40.4174
+  center_long: -3.71531
+  zoom: 16

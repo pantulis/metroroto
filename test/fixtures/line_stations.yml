@@ -1,0 +1,1711 @@
+--- 
+line_stations_1: 
+  id: 1
+  line_id: 11
+  station_id: 1
+  created_at: 2010-05-23 19:05:45 Z
+  updated_at: 2010-05-23 19:05:45 Z
+line_stations_2: 
+  id: 2
+  line_id: 11
+  station_id: 2
+  created_at: 2010-05-23 19:05:46 Z
+  updated_at: 2010-05-23 19:05:46 Z
+line_stations_3: 
+  id: 3
+  line_id: 11
+  station_id: 3
+  created_at: 2010-05-23 19:05:46 Z
+  updated_at: 2010-05-23 19:05:46 Z
+line_stations_4: 
+  id: 4
+  line_id: 11
+  station_id: 4
+  created_at: 2010-05-23 19:05:46 Z
+  updated_at: 2010-05-23 19:05:46 Z
+line_stations_5: 
+  id: 5
+  line_id: 11
+  station_id: 5
+  created_at: 2010-05-23 19:05:46 Z
+  updated_at: 2010-05-23 19:05:46 Z
+line_stations_6: 
+  id: 6
+  line_id: 11
+  station_id: 6
+  created_at: 2010-05-23 19:05:47 Z
+  updated_at: 2010-05-23 19:05:47 Z
+line_stations_7: 
+  id: 7
+  line_id: 6
+  station_id: 7
+  created_at: 2010-05-23 19:05:52 Z
+  updated_at: 2010-05-23 19:05:52 Z
+line_stations_8: 
+  id: 8
+  line_id: 6
+  station_id: 8
+  created_at: 2010-05-23 19:05:52 Z
+  updated_at: 2010-05-23 19:05:52 Z
+line_stations_9: 
+  id: 9
+  line_id: 6
+  station_id: 9
+  created_at: 2010-05-23 19:05:52 Z
+  updated_at: 2010-05-23 19:05:52 Z
+line_stations_10: 
+  id: 10
+  line_id: 6
+  station_id: 10
+  created_at: 2010-05-23 19:05:53 Z
+  updated_at: 2010-05-23 19:05:53 Z
+line_stations_11: 
+  id: 11
+  line_id: 6
+  station_id: 1
+  created_at: 2010-05-23 19:05:53 Z
+  updated_at: 2010-05-23 19:05:53 Z
+line_stations_12: 
+  id: 12
+  line_id: 6
+  station_id: 11
+  created_at: 2010-05-23 19:05:53 Z
+  updated_at: 2010-05-23 19:05:53 Z
+line_stations_13: 
+  id: 13
+  line_id: 6
+  station_id: 12
+  created_at: 2010-05-23 19:05:53 Z
+  updated_at: 2010-05-23 19:05:53 Z
+line_stations_14: 
+  id: 14
+  line_id: 6
+  station_id: 13
+  created_at: 2010-05-23 19:05:54 Z
+  updated_at: 2010-05-23 19:05:54 Z
+line_stations_15: 
+  id: 15
+  line_id: 6
+  station_id: 14
+  created_at: 2010-05-23 19:05:54 Z
+  updated_at: 2010-05-23 19:05:54 Z
+line_stations_16: 
+  id: 16
+  line_id: 6
+  station_id: 15
+  created_at: 2010-05-23 19:05:55 Z
+  updated_at: 2010-05-23 19:05:55 Z
+line_stations_17: 
+  id: 17
+  line_id: 6
+  station_id: 16
+  created_at: 2010-05-23 19:05:55 Z
+  updated_at: 2010-05-23 19:05:55 Z
+line_stations_18: 
+  id: 18
+  line_id: 6
+  station_id: 17
+  created_at: 2010-05-23 19:05:55 Z
+  updated_at: 2010-05-23 19:05:55 Z
+line_stations_19: 
+  id: 19
+  line_id: 6
+  station_id: 18
+  created_at: 2010-05-23 19:05:55 Z
+  updated_at: 2010-05-23 19:05:55 Z
+line_stations_20: 
+  id: 20
+  line_id: 6
+  station_id: 19
+  created_at: 2010-05-23 19:05:56 Z
+  updated_at: 2010-05-23 19:05:56 Z
+line_stations_21: 
+  id: 21
+  line_id: 6
+  station_id: 20
+  created_at: 2010-05-23 19:05:56 Z
+  updated_at: 2010-05-23 19:05:56 Z
+line_stations_22: 
+  id: 22
+  line_id: 6
+  station_id: 21
+  created_at: 2010-05-23 19:05:56 Z
+  updated_at: 2010-05-23 19:05:56 Z
+line_stations_23: 
+  id: 23
+  line_id: 6
+  station_id: 22
+  created_at: 2010-05-23 19:05:57 Z
+  updated_at: 2010-05-23 19:05:57 Z
+line_stations_24: 
+  id: 24
+  line_id: 6
+  station_id: 23
+  created_at: 2010-05-23 19:05:57 Z
+  updated_at: 2010-05-23 19:05:57 Z
+line_stations_25: 
+  id: 25
+  line_id: 6
+  station_id: 24
+  created_at: 2010-05-23 19:05:57 Z
+  updated_at: 2010-05-23 19:05:57 Z
+line_stations_26: 
+  id: 26
+  line_id: 6
+  station_id: 25
+  created_at: 2010-05-23 19:05:58 Z
+  updated_at: 2010-05-23 19:05:58 Z
+line_stations_27: 
+  id: 27
+  line_id: 6
+  station_id: 26
+  created_at: 2010-05-23 19:05:58 Z
+  updated_at: 2010-05-23 19:05:58 Z
+line_stations_28: 
+  id: 28
+  line_id: 6
+  station_id: 27
+  created_at: 2010-05-23 19:05:58 Z
+  updated_at: 2010-05-23 19:05:58 Z
+line_stations_29: 
+  id: 29
+  line_id: 6
+  station_id: 28
+  created_at: 2010-05-23 19:05:59 Z
+  updated_at: 2010-05-23 19:05:59 Z
+line_stations_30: 
+  id: 30
+  line_id: 6
+  station_id: 29
+  created_at: 2010-05-23 19:05:59 Z
+  updated_at: 2010-05-23 19:05:59 Z
+line_stations_31: 
+  id: 31
+  line_id: 6
+  station_id: 30
+  created_at: 2010-05-23 19:05:59 Z
+  updated_at: 2010-05-23 19:05:59 Z
+line_stations_32: 
+  id: 32
+  line_id: 6
+  station_id: 31
+  created_at: 2010-05-23 19:05:59 Z
+  updated_at: 2010-05-23 19:05:59 Z
+line_stations_33: 
+  id: 33
+  line_id: 6
+  station_id: 32
+  created_at: 2010-05-23 19:06:00 Z
+  updated_at: 2010-05-23 19:06:00 Z
+line_stations_34: 
+  id: 34
+  line_id: 6
+  station_id: 33
+  created_at: 2010-05-23 19:06:00 Z
+  updated_at: 2010-05-23 19:06:00 Z
+line_stations_35: 
+  id: 35
+  line_id: 12
+  station_id: 34
+  created_at: 2010-05-23 19:06:08 Z
+  updated_at: 2010-05-23 19:06:08 Z
+line_stations_36: 
+  id: 36
+  line_id: 12
+  station_id: 35
+  created_at: 2010-05-23 19:06:08 Z
+  updated_at: 2010-05-23 19:06:08 Z
+line_stations_37: 
+  id: 37
+  line_id: 12
+  station_id: 36
+  created_at: 2010-05-23 19:06:09 Z
+  updated_at: 2010-05-23 19:06:09 Z
+line_stations_38: 
+  id: 38
+  line_id: 12
+  station_id: 37
+  created_at: 2010-05-23 19:06:09 Z
+  updated_at: 2010-05-23 19:06:09 Z
+line_stations_39: 
+  id: 39
+  line_id: 12
+  station_id: 38
+  created_at: 2010-05-23 19:06:09 Z
+  updated_at: 2010-05-23 19:06:09 Z
+line_stations_40: 
+  id: 40
+  line_id: 12
+  station_id: 39
+  created_at: 2010-05-23 19:06:09 Z
+  updated_at: 2010-05-23 19:06:09 Z
+line_stations_41: 
+  id: 41
+  line_id: 12
+  station_id: 40
+  created_at: 2010-05-23 19:06:10 Z
+  updated_at: 2010-05-23 19:06:10 Z
+line_stations_42: 
+  id: 42
+  line_id: 12
+  station_id: 41
+  created_at: 2010-05-23 19:06:10 Z
+  updated_at: 2010-05-23 19:06:10 Z
+line_stations_43: 
+  id: 43
+  line_id: 12
+  station_id: 42
+  created_at: 2010-05-23 19:06:10 Z
+  updated_at: 2010-05-23 19:06:10 Z
+line_stations_44: 
+  id: 44
+  line_id: 12
+  station_id: 43
+  created_at: 2010-05-23 19:06:11 Z
+  updated_at: 2010-05-23 19:06:11 Z
+line_stations_45: 
+  id: 45
+  line_id: 12
+  station_id: 44
+  created_at: 2010-05-23 19:06:11 Z
+  updated_at: 2010-05-23 19:06:11 Z
+line_stations_46: 
+  id: 46
+  line_id: 12
+  station_id: 45
+  created_at: 2010-05-23 19:06:11 Z
+  updated_at: 2010-05-23 19:06:11 Z
+line_stations_47: 
+  id: 47
+  line_id: 12
+  station_id: 46
+  created_at: 2010-05-23 19:06:12 Z
+  updated_at: 2010-05-23 19:06:12 Z
+line_stations_48: 
+  id: 48
+  line_id: 12
+  station_id: 47
+  created_at: 2010-05-23 19:06:12 Z
+  updated_at: 2010-05-23 19:06:12 Z
+line_stations_49: 
+  id: 49
+  line_id: 12
+  station_id: 48
+  created_at: 2010-05-23 19:06:12 Z
+  updated_at: 2010-05-23 19:06:12 Z
+line_stations_50: 
+  id: 50
+  line_id: 12
+  station_id: 49
+  created_at: 2010-05-23 19:06:12 Z
+  updated_at: 2010-05-23 19:06:12 Z
+line_stations_51: 
+  id: 51
+  line_id: 12
+  station_id: 50
+  created_at: 2010-05-23 19:06:13 Z
+  updated_at: 2010-05-23 19:06:13 Z
+line_stations_52: 
+  id: 52
+  line_id: 12
+  station_id: 51
+  created_at: 2010-05-23 19:06:13 Z
+  updated_at: 2010-05-23 19:06:13 Z
+line_stations_53: 
+  id: 53
+  line_id: 12
+  station_id: 52
+  created_at: 2010-05-23 19:06:13 Z
+  updated_at: 2010-05-23 19:06:13 Z
+line_stations_54: 
+  id: 54
+  line_id: 12
+  station_id: 53
+  created_at: 2010-05-23 19:06:14 Z
+  updated_at: 2010-05-23 19:06:14 Z
+line_stations_55: 
+  id: 55
+  line_id: 12
+  station_id: 54
+  created_at: 2010-05-23 19:06:14 Z
+  updated_at: 2010-05-23 19:06:14 Z
+line_stations_56: 
+  id: 56
+  line_id: 12
+  station_id: 55
+  created_at: 2010-05-23 19:06:14 Z
+  updated_at: 2010-05-23 19:06:14 Z
+line_stations_57: 
+  id: 57
+  line_id: 12
+  station_id: 56
+  created_at: 2010-05-23 19:06:15 Z
+  updated_at: 2010-05-23 19:06:15 Z
+line_stations_58: 
+  id: 58
+  line_id: 12
+  station_id: 57
+  created_at: 2010-05-23 19:06:15 Z
+  updated_at: 2010-05-23 19:06:15 Z
+line_stations_59: 
+  id: 59
+  line_id: 12
+  station_id: 58
+  created_at: 2010-05-23 19:06:15 Z
+  updated_at: 2010-05-23 19:06:15 Z
+line_stations_60: 
+  id: 60
+  line_id: 12
+  station_id: 59
+  created_at: 2010-05-23 19:06:15 Z
+  updated_at: 2010-05-23 19:06:15 Z
+line_stations_61: 
+  id: 61
+  line_id: 12
+  station_id: 60
+  created_at: 2010-05-23 19:06:16 Z
+  updated_at: 2010-05-23 19:06:16 Z
+line_stations_62: 
+  id: 62
+  line_id: 12
+  station_id: 61
+  created_at: 2010-05-23 19:06:16 Z
+  updated_at: 2010-05-23 19:06:16 Z
+line_stations_63: 
+  id: 63
+  line_id: 7
+  station_id: 62
+  created_at: 2010-05-23 19:06:22 Z
+  updated_at: 2010-05-23 19:06:22 Z
+line_stations_64: 
+  id: 64
+  line_id: 7
+  station_id: 63
+  created_at: 2010-05-23 19:06:22 Z
+  updated_at: 2010-05-23 19:06:22 Z
+line_stations_65: 
+  id: 65
+  line_id: 7
+  station_id: 64
+  created_at: 2010-05-23 19:06:22 Z
+  updated_at: 2010-05-23 19:06:22 Z
+line_stations_66: 
+  id: 66
+  line_id: 7
+  station_id: 65
+  created_at: 2010-05-23 19:06:23 Z
+  updated_at: 2010-05-23 19:06:23 Z
+line_stations_67: 
+  id: 67
+  line_id: 7
+  station_id: 66
+  created_at: 2010-05-23 19:06:23 Z
+  updated_at: 2010-05-23 19:06:23 Z
+line_stations_68: 
+  id: 68
+  line_id: 7
+  station_id: 67
+  created_at: 2010-05-23 19:06:23 Z
+  updated_at: 2010-05-23 19:06:23 Z
+line_stations_69: 
+  id: 69
+  line_id: 7
+  station_id: 68
+  created_at: 2010-05-23 19:06:24 Z
+  updated_at: 2010-05-23 19:06:24 Z
+line_stations_70: 
+  id: 70
+  line_id: 7
+  station_id: 69
+  created_at: 2010-05-23 19:06:24 Z
+  updated_at: 2010-05-23 19:06:24 Z
+line_stations_71: 
+  id: 71
+  line_id: 7
+  station_id: 69
+  created_at: 2010-05-23 19:06:24 Z
+  updated_at: 2010-05-23 19:06:24 Z
+line_stations_72: 
+  id: 72
+  line_id: 7
+  station_id: 70
+  created_at: 2010-05-23 19:06:24 Z
+  updated_at: 2010-05-23 19:06:24 Z
+line_stations_73: 
+  id: 73
+  line_id: 7
+  station_id: 71
+  created_at: 2010-05-23 19:06:25 Z
+  updated_at: 2010-05-23 19:06:25 Z
+line_stations_74: 
+  id: 74
+  line_id: 7
+  station_id: 72
+  created_at: 2010-05-23 19:06:25 Z
+  updated_at: 2010-05-23 19:06:25 Z
+line_stations_75: 
+  id: 75
+  line_id: 7
+  station_id: 73
+  created_at: 2010-05-23 19:06:25 Z
+  updated_at: 2010-05-23 19:06:25 Z
+line_stations_76: 
+  id: 76
+  line_id: 7
+  station_id: 74
+  created_at: 2010-05-23 19:06:26 Z
+  updated_at: 2010-05-23 19:06:26 Z
+line_stations_77: 
+  id: 77
+  line_id: 7
+  station_id: 75
+  created_at: 2010-05-23 19:06:26 Z
+  updated_at: 2010-05-23 19:06:26 Z
+line_stations_78: 
+  id: 78
+  line_id: 7
+  station_id: 76
+  created_at: 2010-05-23 19:06:26 Z
+  updated_at: 2010-05-23 19:06:26 Z
+line_stations_79: 
+  id: 79
+  line_id: 7
+  station_id: 77
+  created_at: 2010-05-23 19:06:26 Z
+  updated_at: 2010-05-23 19:06:26 Z
+line_stations_80: 
+  id: 80
+  line_id: 7
+  station_id: 78
+  created_at: 2010-05-23 19:06:27 Z
+  updated_at: 2010-05-23 19:06:27 Z
+line_stations_81: 
+  id: 81
+  line_id: 7
+  station_id: 21
+  created_at: 2010-05-23 19:06:27 Z
+  updated_at: 2010-05-23 19:06:27 Z
+line_stations_82: 
+  id: 82
+  line_id: 7
+  station_id: 79
+  created_at: 2010-05-23 19:06:27 Z
+  updated_at: 2010-05-23 19:06:27 Z
+line_stations_83: 
+  id: 83
+  line_id: 7
+  station_id: 80
+  created_at: 2010-05-23 19:06:28 Z
+  updated_at: 2010-05-23 19:06:28 Z
+line_stations_84: 
+  id: 84
+  line_id: 7
+  station_id: 81
+  created_at: 2010-05-23 19:06:28 Z
+  updated_at: 2010-05-23 19:06:28 Z
+line_stations_85: 
+  id: 85
+  line_id: 7
+  station_id: 82
+  created_at: 2010-05-23 19:06:28 Z
+  updated_at: 2010-05-23 19:06:28 Z
+line_stations_86: 
+  id: 86
+  line_id: 7
+  station_id: 25
+  created_at: 2010-05-23 19:06:29 Z
+  updated_at: 2010-05-23 19:06:29 Z
+line_stations_87: 
+  id: 87
+  line_id: 7
+  station_id: 83
+  created_at: 2010-05-23 19:06:29 Z
+  updated_at: 2010-05-23 19:06:29 Z
+line_stations_88: 
+  id: 88
+  line_id: 7
+  station_id: 84
+  created_at: 2010-05-23 19:06:29 Z
+  updated_at: 2010-05-23 19:06:29 Z
+line_stations_89: 
+  id: 89
+  line_id: 7
+  station_id: 85
+  created_at: 2010-05-23 19:06:29 Z
+  updated_at: 2010-05-23 19:06:29 Z
+line_stations_90: 
+  id: 90
+  line_id: 7
+  station_id: 86
+  created_at: 2010-05-23 19:06:30 Z
+  updated_at: 2010-05-23 19:06:30 Z
+line_stations_91: 
+  id: 91
+  line_id: 7
+  station_id: 87
+  created_at: 2010-05-23 19:06:30 Z
+  updated_at: 2010-05-23 19:06:30 Z
+line_stations_92: 
+  id: 92
+  line_id: 7
+  station_id: 88
+  created_at: 2010-05-23 19:06:30 Z
+  updated_at: 2010-05-23 19:06:30 Z
+line_stations_93: 
+  id: 93
+  line_id: 7
+  station_id: 89
+  created_at: 2010-05-23 19:06:31 Z
+  updated_at: 2010-05-23 19:06:31 Z
+line_stations_94: 
+  id: 94
+  line_id: 8
+  station_id: 23
+  created_at: 2010-05-23 19:06:35 Z
+  updated_at: 2010-05-23 19:06:35 Z
+line_stations_95: 
+  id: 95
+  line_id: 8
+  station_id: 90
+  created_at: 2010-05-23 19:06:35 Z
+  updated_at: 2010-05-23 19:06:35 Z
+line_stations_96: 
+  id: 96
+  line_id: 8
+  station_id: 91
+  created_at: 2010-05-23 19:06:36 Z
+  updated_at: 2010-05-23 19:06:36 Z
+line_stations_97: 
+  id: 97
+  line_id: 8
+  station_id: 92
+  created_at: 2010-05-23 19:06:36 Z
+  updated_at: 2010-05-23 19:06:36 Z
+line_stations_98: 
+  id: 98
+  line_id: 8
+  station_id: 93
+  created_at: 2010-05-23 19:06:36 Z
+  updated_at: 2010-05-23 19:06:36 Z
+line_stations_99: 
+  id: 99
+  line_id: 8
+  station_id: 94
+  created_at: 2010-05-23 19:06:37 Z
+  updated_at: 2010-05-23 19:06:37 Z
+line_stations_100: 
+  id: 100
+  line_id: 8
+  station_id: 95
+  created_at: 2010-05-23 19:06:37 Z
+  updated_at: 2010-05-23 19:06:37 Z
+line_stations_101: 
+  id: 101
+  line_id: 8
+  station_id: 96
+  created_at: 2010-05-23 19:06:37 Z
+  updated_at: 2010-05-23 19:06:37 Z
+line_stations_102: 
+  id: 102
+  line_id: 9
+  station_id: 97
+  created_at: 2010-05-23 19:06:48 Z
+  updated_at: 2010-05-23 19:06:48 Z
+line_stations_103: 
+  id: 103
+  line_id: 9
+  station_id: 98
+  created_at: 2010-05-23 19:06:48 Z
+  updated_at: 2010-05-23 19:06:48 Z
+line_stations_104: 
+  id: 104
+  line_id: 9
+  station_id: 99
+  created_at: 2010-05-23 19:06:48 Z
+  updated_at: 2010-05-23 19:06:48 Z
+line_stations_105: 
+  id: 105
+  line_id: 9
+  station_id: 100
+  created_at: 2010-05-23 19:06:48 Z
+  updated_at: 2010-05-23 19:06:48 Z
+line_stations_106: 
+  id: 106
+  line_id: 9
+  station_id: 101
+  created_at: 2010-05-23 19:06:49 Z
+  updated_at: 2010-05-23 19:06:49 Z
+line_stations_107: 
+  id: 107
+  line_id: 9
+  station_id: 102
+  created_at: 2010-05-23 19:06:49 Z
+  updated_at: 2010-05-23 19:06:49 Z
+line_stations_108: 
+  id: 108
+  line_id: 9
+  station_id: 90
+  created_at: 2010-05-23 19:06:49 Z
+  updated_at: 2010-05-23 19:06:49 Z
+line_stations_109: 
+  id: 109
+  line_id: 9
+  station_id: 103
+  created_at: 2010-05-23 19:06:50 Z
+  updated_at: 2010-05-23 19:06:50 Z
+line_stations_110: 
+  id: 110
+  line_id: 9
+  station_id: 104
+  created_at: 2010-05-23 19:06:50 Z
+  updated_at: 2010-05-23 19:06:50 Z
+line_stations_111: 
+  id: 111
+  line_id: 9
+  station_id: 21
+  created_at: 2010-05-23 19:06:50 Z
+  updated_at: 2010-05-23 19:06:50 Z
+line_stations_112: 
+  id: 112
+  line_id: 9
+  station_id: 105
+  created_at: 2010-05-23 19:06:51 Z
+  updated_at: 2010-05-23 19:06:51 Z
+line_stations_113: 
+  id: 113
+  line_id: 9
+  station_id: 106
+  created_at: 2010-05-23 19:06:51 Z
+  updated_at: 2010-05-23 19:06:51 Z
+line_stations_114: 
+  id: 114
+  line_id: 9
+  station_id: 107
+  created_at: 2010-05-23 19:06:51 Z
+  updated_at: 2010-05-23 19:06:51 Z
+line_stations_115: 
+  id: 115
+  line_id: 9
+  station_id: 17
+  created_at: 2010-05-23 19:06:52 Z
+  updated_at: 2010-05-23 19:06:52 Z
+line_stations_116: 
+  id: 116
+  line_id: 9
+  station_id: 108
+  created_at: 2010-05-23 19:06:52 Z
+  updated_at: 2010-05-23 19:06:52 Z
+line_stations_117: 
+  id: 117
+  line_id: 9
+  station_id: 109
+  created_at: 2010-05-23 19:06:52 Z
+  updated_at: 2010-05-23 19:06:52 Z
+line_stations_118: 
+  id: 118
+  line_id: 9
+  station_id: 110
+  created_at: 2010-05-23 19:06:52 Z
+  updated_at: 2010-05-23 19:06:52 Z
+line_stations_119: 
+  id: 119
+  line_id: 9
+  station_id: 111
+  created_at: 2010-05-23 19:06:53 Z
+  updated_at: 2010-05-23 19:06:53 Z
+line_stations_120: 
+  id: 120
+  line_id: 9
+  station_id: 112
+  created_at: 2010-05-23 19:06:53 Z
+  updated_at: 2010-05-23 19:06:53 Z
+line_stations_121: 
+  id: 121
+  line_id: 9
+  station_id: 113
+  created_at: 2010-05-23 19:06:53 Z
+  updated_at: 2010-05-23 19:06:53 Z
+line_stations_122: 
+  id: 122
+  line_id: 9
+  station_id: 114
+  created_at: 2010-05-23 19:06:53 Z
+  updated_at: 2010-05-23 19:06:53 Z
+line_stations_123: 
+  id: 123
+  line_id: 9
+  station_id: 115
+  created_at: 2010-05-23 19:06:54 Z
+  updated_at: 2010-05-23 19:06:54 Z
+line_stations_124: 
+  id: 124
+  line_id: 9
+  station_id: 115
+  created_at: 2010-05-23 19:06:54 Z
+  updated_at: 2010-05-23 19:06:54 Z
+line_stations_125: 
+  id: 125
+  line_id: 9
+  station_id: 116
+  created_at: 2010-05-23 19:06:54 Z
+  updated_at: 2010-05-23 19:06:54 Z
+line_stations_126: 
+  id: 126
+  line_id: 9
+  station_id: 117
+  created_at: 2010-05-23 19:06:55 Z
+  updated_at: 2010-05-23 19:06:55 Z
+line_stations_127: 
+  id: 127
+  line_id: 9
+  station_id: 118
+  created_at: 2010-05-23 19:06:55 Z
+  updated_at: 2010-05-23 19:06:55 Z
+line_stations_128: 
+  id: 128
+  line_id: 9
+  station_id: 119
+  created_at: 2010-05-23 19:06:55 Z
+  updated_at: 2010-05-23 19:06:55 Z
+line_stations_129: 
+  id: 129
+  line_id: 9
+  station_id: 120
+  created_at: 2010-05-23 19:06:56 Z
+  updated_at: 2010-05-23 19:06:56 Z
+line_stations_130: 
+  id: 130
+  line_id: 1
+  station_id: 121
+  created_at: 2010-05-23 19:07:02 Z
+  updated_at: 2010-05-23 19:07:02 Z
+line_stations_131: 
+  id: 131
+  line_id: 1
+  station_id: 122
+  created_at: 2010-05-23 19:07:02 Z
+  updated_at: 2010-05-23 19:07:02 Z
+line_stations_132: 
+  id: 132
+  line_id: 1
+  station_id: 123
+  created_at: 2010-05-23 19:07:02 Z
+  updated_at: 2010-05-23 19:07:02 Z
+line_stations_133: 
+  id: 133
+  line_id: 1
+  station_id: 100
+  created_at: 2010-05-23 19:07:03 Z
+  updated_at: 2010-05-23 19:07:03 Z
+line_stations_134: 
+  id: 134
+  line_id: 1
+  station_id: 124
+  created_at: 2010-05-23 19:07:03 Z
+  updated_at: 2010-05-23 19:07:03 Z
+line_stations_135: 
+  id: 135
+  line_id: 1
+  station_id: 125
+  created_at: 2010-05-23 19:07:03 Z
+  updated_at: 2010-05-23 19:07:03 Z
+line_stations_136: 
+  id: 136
+  line_id: 1
+  station_id: 126
+  created_at: 2010-05-23 19:07:03 Z
+  updated_at: 2010-05-23 19:07:03 Z
+line_stations_137: 
+  id: 137
+  line_id: 1
+  station_id: 127
+  created_at: 2010-05-23 19:07:04 Z
+  updated_at: 2010-05-23 19:07:04 Z
+line_stations_138: 
+  id: 138
+  line_id: 1
+  station_id: 24
+  created_at: 2010-05-23 19:07:04 Z
+  updated_at: 2010-05-23 19:07:04 Z
+line_stations_139: 
+  id: 139
+  line_id: 1
+  station_id: 128
+  created_at: 2010-05-23 19:07:04 Z
+  updated_at: 2010-05-23 19:07:04 Z
+line_stations_140: 
+  id: 140
+  line_id: 1
+  station_id: 129
+  created_at: 2010-05-23 19:07:05 Z
+  updated_at: 2010-05-23 19:07:05 Z
+line_stations_141: 
+  id: 141
+  line_id: 1
+  station_id: 130
+  created_at: 2010-05-23 19:07:05 Z
+  updated_at: 2010-05-23 19:07:05 Z
+line_stations_142: 
+  id: 142
+  line_id: 1
+  station_id: 131
+  created_at: 2010-05-23 19:07:05 Z
+  updated_at: 2010-05-23 19:07:05 Z
+line_stations_143: 
+  id: 143
+  line_id: 1
+  station_id: 132
+  created_at: 2010-05-23 19:07:05 Z
+  updated_at: 2010-05-23 19:07:05 Z
+line_stations_144: 
+  id: 144
+  line_id: 1
+  station_id: 133
+  created_at: 2010-05-23 19:07:06 Z
+  updated_at: 2010-05-23 19:07:06 Z
+line_stations_145: 
+  id: 145
+  line_id: 1
+  station_id: 134
+  created_at: 2010-05-23 19:07:06 Z
+  updated_at: 2010-05-23 19:07:06 Z
+line_stations_146: 
+  id: 146
+  line_id: 1
+  station_id: 135
+  created_at: 2010-05-23 19:07:06 Z
+  updated_at: 2010-05-23 19:07:06 Z
+line_stations_147: 
+  id: 147
+  line_id: 1
+  station_id: 136
+  created_at: 2010-05-23 19:07:07 Z
+  updated_at: 2010-05-23 19:07:07 Z
+line_stations_148: 
+  id: 148
+  line_id: 1
+  station_id: 137
+  created_at: 2010-05-23 19:07:07 Z
+  updated_at: 2010-05-23 19:07:07 Z
+line_stations_149: 
+  id: 149
+  line_id: 1
+  station_id: 138
+  created_at: 2010-05-23 19:07:07 Z
+  updated_at: 2010-05-23 19:07:07 Z
+line_stations_150: 
+  id: 150
+  line_id: 1
+  station_id: 15
+  created_at: 2010-05-23 19:07:07 Z
+  updated_at: 2010-05-23 19:07:07 Z
+line_stations_151: 
+  id: 151
+  line_id: 1
+  station_id: 139
+  created_at: 2010-05-23 19:07:08 Z
+  updated_at: 2010-05-23 19:07:08 Z
+line_stations_152: 
+  id: 152
+  line_id: 1
+  station_id: 140
+  created_at: 2010-05-23 19:07:08 Z
+  updated_at: 2010-05-23 19:07:08 Z
+line_stations_153: 
+  id: 153
+  line_id: 1
+  station_id: 141
+  created_at: 2010-05-23 19:07:08 Z
+  updated_at: 2010-05-23 19:07:08 Z
+line_stations_154: 
+  id: 154
+  line_id: 1
+  station_id: 142
+  created_at: 2010-05-23 19:07:09 Z
+  updated_at: 2010-05-23 19:07:09 Z
+line_stations_155: 
+  id: 155
+  line_id: 1
+  station_id: 143
+  created_at: 2010-05-23 19:07:09 Z
+  updated_at: 2010-05-23 19:07:09 Z
+line_stations_156: 
+  id: 156
+  line_id: 1
+  station_id: 144
+  created_at: 2010-05-23 19:07:09 Z
+  updated_at: 2010-05-23 19:07:09 Z
+line_stations_157: 
+  id: 157
+  line_id: 1
+  station_id: 145
+  created_at: 2010-05-23 19:07:10 Z
+  updated_at: 2010-05-23 19:07:10 Z
+line_stations_158: 
+  id: 158
+  line_id: 1
+  station_id: 146
+  created_at: 2010-05-23 19:07:10 Z
+  updated_at: 2010-05-23 19:07:10 Z
+line_stations_159: 
+  id: 159
+  line_id: 1
+  station_id: 147
+  created_at: 2010-05-23 19:07:10 Z
+  updated_at: 2010-05-23 19:07:10 Z
+line_stations_160: 
+  id: 160
+  line_id: 1
+  station_id: 148
+  created_at: 2010-05-23 19:07:10 Z
+  updated_at: 2010-05-23 19:07:10 Z
+line_stations_161: 
+  id: 161
+  line_id: 1
+  station_id: 149
+  created_at: 2010-05-23 19:07:11 Z
+  updated_at: 2010-05-23 19:07:11 Z
+line_stations_162: 
+  id: 162
+  line_id: 1
+  station_id: 150
+  created_at: 2010-05-23 19:07:11 Z
+  updated_at: 2010-05-23 19:07:11 Z
+line_stations_163: 
+  id: 163
+  line_id: 13
+  station_id: 151
+  created_at: 2010-05-23 19:07:16 Z
+  updated_at: 2010-05-23 19:07:16 Z
+line_stations_164: 
+  id: 164
+  line_id: 13
+  station_id: 30
+  created_at: 2010-05-23 19:07:16 Z
+  updated_at: 2010-05-23 19:07:16 Z
+line_stations_165: 
+  id: 165
+  line_id: 2
+  station_id: 152
+  created_at: 2010-05-23 19:07:20 Z
+  updated_at: 2010-05-23 19:07:20 Z
+line_stations_166: 
+  id: 166
+  line_id: 2
+  station_id: 153
+  created_at: 2010-05-23 19:07:21 Z
+  updated_at: 2010-05-23 19:07:21 Z
+line_stations_167: 
+  id: 167
+  line_id: 2
+  station_id: 19
+  created_at: 2010-05-23 19:07:21 Z
+  updated_at: 2010-05-23 19:07:21 Z
+line_stations_168: 
+  id: 168
+  line_id: 2
+  station_id: 154
+  created_at: 2010-05-23 19:07:21 Z
+  updated_at: 2010-05-23 19:07:21 Z
+line_stations_169: 
+  id: 169
+  line_id: 2
+  station_id: 106
+  created_at: 2010-05-23 19:07:21 Z
+  updated_at: 2010-05-23 19:07:21 Z
+line_stations_170: 
+  id: 170
+  line_id: 2
+  station_id: 155
+  created_at: 2010-05-23 19:07:22 Z
+  updated_at: 2010-05-23 19:07:22 Z
+line_stations_171: 
+  id: 171
+  line_id: 2
+  station_id: 156
+  created_at: 2010-05-23 19:07:22 Z
+  updated_at: 2010-05-23 19:07:22 Z
+line_stations_172: 
+  id: 172
+  line_id: 2
+  station_id: 157
+  created_at: 2010-05-23 19:07:22 Z
+  updated_at: 2010-05-23 19:07:22 Z
+line_stations_173: 
+  id: 173
+  line_id: 2
+  station_id: 133
+  created_at: 2010-05-23 19:07:23 Z
+  updated_at: 2010-05-23 19:07:23 Z
+line_stations_174: 
+  id: 174
+  line_id: 2
+  station_id: 151
+  created_at: 2010-05-23 19:07:23 Z
+  updated_at: 2010-05-23 19:07:23 Z
+line_stations_175: 
+  id: 175
+  line_id: 2
+  station_id: 158
+  created_at: 2010-05-23 19:07:23 Z
+  updated_at: 2010-05-23 19:07:23 Z
+line_stations_176: 
+  id: 176
+  line_id: 2
+  station_id: 159
+  created_at: 2010-05-23 19:07:24 Z
+  updated_at: 2010-05-23 19:07:24 Z
+line_stations_177: 
+  id: 177
+  line_id: 2
+  station_id: 160
+  created_at: 2010-05-23 19:07:24 Z
+  updated_at: 2010-05-23 19:07:24 Z
+line_stations_178: 
+  id: 178
+  line_id: 2
+  station_id: 161
+  created_at: 2010-05-23 19:07:24 Z
+  updated_at: 2010-05-23 19:07:24 Z
+line_stations_179: 
+  id: 179
+  line_id: 2
+  station_id: 81
+  created_at: 2010-05-23 19:07:25 Z
+  updated_at: 2010-05-23 19:07:25 Z
+line_stations_180: 
+  id: 180
+  line_id: 2
+  station_id: 24
+  created_at: 2010-05-23 19:07:25 Z
+  updated_at: 2010-05-23 19:07:25 Z
+line_stations_181: 
+  id: 181
+  line_id: 3
+  station_id: 162
+  created_at: 2010-05-23 19:07:31 Z
+  updated_at: 2010-05-23 19:07:31 Z
+line_stations_182: 
+  id: 182
+  line_id: 3
+  station_id: 163
+  created_at: 2010-05-23 19:07:31 Z
+  updated_at: 2010-05-23 19:07:31 Z
+line_stations_183: 
+  id: 183
+  line_id: 3
+  station_id: 164
+  created_at: 2010-05-23 19:07:32 Z
+  updated_at: 2010-05-23 19:07:32 Z
+line_stations_184: 
+  id: 184
+  line_id: 3
+  station_id: 165
+  created_at: 2010-05-23 19:07:32 Z
+  updated_at: 2010-05-23 19:07:32 Z
+line_stations_185: 
+  id: 185
+  line_id: 3
+  station_id: 166
+  created_at: 2010-05-23 19:07:32 Z
+  updated_at: 2010-05-23 19:07:32 Z
+line_stations_186: 
+  id: 186
+  line_id: 3
+  station_id: 167
+  created_at: 2010-05-23 19:07:32 Z
+  updated_at: 2010-05-23 19:07:32 Z
+line_stations_187: 
+  id: 187
+  line_id: 3
+  station_id: 168
+  created_at: 2010-05-23 19:07:33 Z
+  updated_at: 2010-05-23 19:07:33 Z
+line_stations_188: 
+  id: 188
+  line_id: 3
+  station_id: 12
+  created_at: 2010-05-23 19:07:33 Z
+  updated_at: 2010-05-23 19:07:33 Z
+line_stations_189: 
+  id: 189
+  line_id: 3
+  station_id: 169
+  created_at: 2010-05-23 19:07:33 Z
+  updated_at: 2010-05-23 19:07:33 Z
+line_stations_190: 
+  id: 190
+  line_id: 3
+  station_id: 170
+  created_at: 2010-05-23 19:07:34 Z
+  updated_at: 2010-05-23 19:07:34 Z
+line_stations_191: 
+  id: 191
+  line_id: 3
+  station_id: 171
+  created_at: 2010-05-23 19:07:34 Z
+  updated_at: 2010-05-23 19:07:34 Z
+line_stations_192: 
+  id: 192
+  line_id: 3
+  station_id: 172
+  created_at: 2010-05-23 19:07:34 Z
+  updated_at: 2010-05-23 19:07:34 Z
+line_stations_193: 
+  id: 193
+  line_id: 3
+  station_id: 133
+  created_at: 2010-05-23 19:07:35 Z
+  updated_at: 2010-05-23 19:07:35 Z
+line_stations_194: 
+  id: 194
+  line_id: 3
+  station_id: 173
+  created_at: 2010-05-23 19:07:35 Z
+  updated_at: 2010-05-23 19:07:35 Z
+line_stations_195: 
+  id: 195
+  line_id: 3
+  station_id: 174
+  created_at: 2010-05-23 19:07:35 Z
+  updated_at: 2010-05-23 19:07:35 Z
+line_stations_196: 
+  id: 196
+  line_id: 3
+  station_id: 175
+  created_at: 2010-05-23 19:07:36 Z
+  updated_at: 2010-05-23 19:07:36 Z
+line_stations_197: 
+  id: 197
+  line_id: 3
+  station_id: 29
+  created_at: 2010-05-23 19:07:36 Z
+  updated_at: 2010-05-23 19:07:36 Z
+line_stations_198: 
+  id: 198
+  line_id: 3
+  station_id: 28
+  created_at: 2010-05-23 19:07:37 Z
+  updated_at: 2010-05-23 19:07:37 Z
+line_stations_199: 
+  id: 199
+  line_id: 10
+  station_id: 176
+  created_at: 2010-05-23 19:07:44 Z
+  updated_at: 2010-05-23 19:07:44 Z
+line_stations_200: 
+  id: 200
+  line_id: 10
+  station_id: 177
+  created_at: 2010-05-23 19:07:44 Z
+  updated_at: 2010-05-23 19:07:44 Z
+line_stations_201: 
+  id: 201
+  line_id: 10
+  station_id: 178
+  created_at: 2010-05-23 19:07:44 Z
+  updated_at: 2010-05-23 19:07:44 Z
+line_stations_202: 
+  id: 202
+  line_id: 10
+  station_id: 179
+  created_at: 2010-05-23 19:07:45 Z
+  updated_at: 2010-05-23 19:07:45 Z
+line_stations_203: 
+  id: 203
+  line_id: 10
+  station_id: 180
+  created_at: 2010-05-23 19:07:45 Z
+  updated_at: 2010-05-23 19:07:45 Z
+line_stations_204: 
+  id: 204
+  line_id: 10
+  station_id: 181
+  created_at: 2010-05-23 19:07:45 Z
+  updated_at: 2010-05-23 19:07:45 Z
+line_stations_205: 
+  id: 205
+  line_id: 10
+  station_id: 182
+  created_at: 2010-05-23 19:07:45 Z
+  updated_at: 2010-05-23 19:07:45 Z
+line_stations_206: 
+  id: 206
+  line_id: 10
+  station_id: 183
+  created_at: 2010-05-23 19:07:46 Z
+  updated_at: 2010-05-23 19:07:46 Z
+line_stations_207: 
+  id: 207
+  line_id: 10
+  station_id: 184
+  created_at: 2010-05-23 19:07:46 Z
+  updated_at: 2010-05-23 19:07:46 Z
+line_stations_208: 
+  id: 208
+  line_id: 10
+  station_id: 185
+  created_at: 2010-05-23 19:07:46 Z
+  updated_at: 2010-05-23 19:07:46 Z
+line_stations_209: 
+  id: 209
+  line_id: 10
+  station_id: 186
+  created_at: 2010-05-23 19:07:47 Z
+  updated_at: 2010-05-23 19:07:47 Z
+line_stations_210: 
+  id: 210
+  line_id: 10
+  station_id: 186
+  created_at: 2010-05-23 19:07:47 Z
+  updated_at: 2010-05-23 19:07:47 Z
+line_stations_211: 
+  id: 211
+  line_id: 10
+  station_id: 187
+  created_at: 2010-05-23 19:07:47 Z
+  updated_at: 2010-05-23 19:07:47 Z
+line_stations_212: 
+  id: 212
+  line_id: 10
+  station_id: 188
+  created_at: 2010-05-23 19:07:47 Z
+  updated_at: 2010-05-23 19:07:47 Z
+line_stations_213: 
+  id: 213
+  line_id: 10
+  station_id: 123
+  created_at: 2010-05-23 19:07:48 Z
+  updated_at: 2010-05-23 19:07:48 Z
+line_stations_214: 
+  id: 214
+  line_id: 10
+  station_id: 100
+  created_at: 2010-05-23 19:07:48 Z
+  updated_at: 2010-05-23 19:07:48 Z
+line_stations_215: 
+  id: 215
+  line_id: 10
+  station_id: 189
+  created_at: 2010-05-23 19:07:48 Z
+  updated_at: 2010-05-23 19:07:48 Z
+line_stations_216: 
+  id: 216
+  line_id: 10
+  station_id: 190
+  created_at: 2010-05-23 19:07:49 Z
+  updated_at: 2010-05-23 19:07:49 Z
+line_stations_217: 
+  id: 217
+  line_id: 10
+  station_id: 23
+  created_at: 2010-05-23 19:07:49 Z
+  updated_at: 2010-05-23 19:07:49 Z
+line_stations_218: 
+  id: 218
+  line_id: 10
+  station_id: 79
+  created_at: 2010-05-23 19:07:49 Z
+  updated_at: 2010-05-23 19:07:49 Z
+line_stations_219: 
+  id: 219
+  line_id: 10
+  station_id: 191
+  created_at: 2010-05-23 19:07:50 Z
+  updated_at: 2010-05-23 19:07:50 Z
+line_stations_220: 
+  id: 220
+  line_id: 10
+  station_id: 131
+  created_at: 2010-05-23 19:07:50 Z
+  updated_at: 2010-05-23 19:07:50 Z
+line_stations_221: 
+  id: 221
+  line_id: 10
+  station_id: 174
+  created_at: 2010-05-23 19:07:50 Z
+  updated_at: 2010-05-23 19:07:50 Z
+line_stations_222: 
+  id: 222
+  line_id: 10
+  station_id: 30
+  created_at: 2010-05-23 19:07:50 Z
+  updated_at: 2010-05-23 19:07:50 Z
+line_stations_223: 
+  id: 223
+  line_id: 10
+  station_id: 192
+  created_at: 2010-05-23 19:07:51 Z
+  updated_at: 2010-05-23 19:07:51 Z
+line_stations_224: 
+  id: 224
+  line_id: 10
+  station_id: 193
+  created_at: 2010-05-23 19:07:51 Z
+  updated_at: 2010-05-23 19:07:51 Z
+line_stations_225: 
+  id: 225
+  line_id: 10
+  station_id: 194
+  created_at: 2010-05-23 19:07:51 Z
+  updated_at: 2010-05-23 19:07:51 Z
+line_stations_226: 
+  id: 226
+  line_id: 10
+  station_id: 195
+  created_at: 2010-05-23 19:07:52 Z
+  updated_at: 2010-05-23 19:07:52 Z
+line_stations_227: 
+  id: 227
+  line_id: 10
+  station_id: 196
+  created_at: 2010-05-23 19:07:52 Z
+  updated_at: 2010-05-23 19:07:52 Z
+line_stations_228: 
+  id: 228
+  line_id: 10
+  station_id: 197
+  created_at: 2010-05-23 19:07:52 Z
+  updated_at: 2010-05-23 19:07:52 Z
+line_stations_229: 
+  id: 229
+  line_id: 10
+  station_id: 198
+  created_at: 2010-05-23 19:07:53 Z
+  updated_at: 2010-05-23 19:07:53 Z
+line_stations_230: 
+  id: 230
+  line_id: 10
+  station_id: 34
+  created_at: 2010-05-23 19:07:53 Z
+  updated_at: 2010-05-23 19:07:53 Z
+line_stations_231: 
+  id: 231
+  line_id: 4
+  station_id: 29
+  created_at: 2010-05-23 19:07:57 Z
+  updated_at: 2010-05-23 19:07:57 Z
+line_stations_232: 
+  id: 232
+  line_id: 4
+  station_id: 160
+  created_at: 2010-05-23 19:07:57 Z
+  updated_at: 2010-05-23 19:07:57 Z
+line_stations_233: 
+  id: 233
+  line_id: 4
+  station_id: 130
+  created_at: 2010-05-23 19:07:57 Z
+  updated_at: 2010-05-23 19:07:57 Z
+line_stations_234: 
+  id: 234
+  line_id: 4
+  station_id: 191
+  created_at: 2010-05-23 19:07:58 Z
+  updated_at: 2010-05-23 19:07:58 Z
+line_stations_235: 
+  id: 235
+  line_id: 4
+  station_id: 199
+  created_at: 2010-05-23 19:07:58 Z
+  updated_at: 2010-05-23 19:07:58 Z
+line_stations_236: 
+  id: 236
+  line_id: 4
+  station_id: 200
+  created_at: 2010-05-23 19:07:58 Z
+  updated_at: 2010-05-23 19:07:58 Z
+line_stations_237: 
+  id: 237
+  line_id: 4
+  station_id: 201
+  created_at: 2010-05-23 19:07:59 Z
+  updated_at: 2010-05-23 19:07:59 Z
+line_stations_238: 
+  id: 238
+  line_id: 4
+  station_id: 154
+  created_at: 2010-05-23 19:07:59 Z
+  updated_at: 2010-05-23 19:07:59 Z
+line_stations_239: 
+  id: 239
+  line_id: 4
+  station_id: 202
+  created_at: 2010-05-23 19:07:59 Z
+  updated_at: 2010-05-23 19:07:59 Z
+line_stations_240: 
+  id: 240
+  line_id: 4
+  station_id: 20
+  created_at: 2010-05-23 19:07:59 Z
+  updated_at: 2010-05-23 19:07:59 Z
+line_stations_241: 
+  id: 241
+  line_id: 4
+  station_id: 21
+  created_at: 2010-05-23 19:08:00 Z
+  updated_at: 2010-05-23 19:08:00 Z
+line_stations_242: 
+  id: 242
+  line_id: 4
+  station_id: 203
+  created_at: 2010-05-23 19:08:00 Z
+  updated_at: 2010-05-23 19:08:00 Z
+line_stations_243: 
+  id: 243
+  line_id: 4
+  station_id: 204
+  created_at: 2010-05-23 19:08:00 Z
+  updated_at: 2010-05-23 19:08:00 Z
+line_stations_244: 
+  id: 244
+  line_id: 4
+  station_id: 205
+  created_at: 2010-05-23 19:08:01 Z
+  updated_at: 2010-05-23 19:08:01 Z
+line_stations_245: 
+  id: 245
+  line_id: 4
+  station_id: 206
+  created_at: 2010-05-23 19:08:01 Z
+  updated_at: 2010-05-23 19:08:01 Z
+line_stations_246: 
+  id: 246
+  line_id: 4
+  station_id: 207
+  created_at: 2010-05-23 19:08:01 Z
+  updated_at: 2010-05-23 19:08:01 Z
+line_stations_247: 
+  id: 247
+  line_id: 4
+  station_id: 208
+  created_at: 2010-05-23 19:08:02 Z
+  updated_at: 2010-05-23 19:08:02 Z
+line_stations_248: 
+  id: 248
+  line_id: 4
+  station_id: 92
+  created_at: 2010-05-23 19:08:02 Z
+  updated_at: 2010-05-23 19:08:02 Z
+line_stations_249: 
+  id: 249
+  line_id: 4
+  station_id: 209
+  created_at: 2010-05-23 19:08:02 Z
+  updated_at: 2010-05-23 19:08:02 Z
+line_stations_250: 
+  id: 250
+  line_id: 4
+  station_id: 210
+  created_at: 2010-05-23 19:08:02 Z
+  updated_at: 2010-05-23 19:08:02 Z
+line_stations_251: 
+  id: 251
+  line_id: 4
+  station_id: 211
+  created_at: 2010-05-23 19:08:03 Z
+  updated_at: 2010-05-23 19:08:03 Z
+line_stations_252: 
+  id: 252
+  line_id: 4
+  station_id: 212
+  created_at: 2010-05-23 19:08:03 Z
+  updated_at: 2010-05-23 19:08:03 Z
+line_stations_253: 
+  id: 253
+  line_id: 4
+  station_id: 121
+  created_at: 2010-05-23 19:08:04 Z
+  updated_at: 2010-05-23 19:08:04 Z
+line_stations_254: 
+  id: 254
+  line_id: 5
+  station_id: 213
+  created_at: 2010-05-23 19:08:07 Z
+  updated_at: 2010-05-23 19:08:07 Z
+line_stations_255: 
+  id: 255
+  line_id: 5
+  station_id: 214
+  created_at: 2010-05-23 19:08:08 Z
+  updated_at: 2010-05-23 19:08:08 Z
+line_stations_256: 
+  id: 256
+  line_id: 5
+  station_id: 215
+  created_at: 2010-05-23 19:08:08 Z
+  updated_at: 2010-05-23 19:08:08 Z
+line_stations_257: 
+  id: 257
+  line_id: 5
+  station_id: 216
+  created_at: 2010-05-23 19:08:08 Z
+  updated_at: 2010-05-23 19:08:08 Z
+line_stations_258: 
+  id: 258
+  line_id: 5
+  station_id: 217
+  created_at: 2010-05-23 19:08:09 Z
+  updated_at: 2010-05-23 19:08:09 Z
+line_stations_259: 
+  id: 259
+  line_id: 5
+  station_id: 218
+  created_at: 2010-05-23 19:08:09 Z
+  updated_at: 2010-05-23 19:08:09 Z
+line_stations_260: 
+  id: 260
+  line_id: 5
+  station_id: 75
+  created_at: 2010-05-23 19:08:09 Z
+  updated_at: 2010-05-23 19:08:09 Z
+line_stations_261: 
+  id: 261
+  line_id: 5
+  station_id: 219
+  created_at: 2010-05-23 19:08:10 Z
+  updated_at: 2010-05-23 19:08:10 Z
+line_stations_262: 
+  id: 262
+  line_id: 5
+  station_id: 220
+  created_at: 2010-05-23 19:08:10 Z
+  updated_at: 2010-05-23 19:08:10 Z
+line_stations_263: 
+  id: 263
+  line_id: 5
+  station_id: 153
+  created_at: 2010-05-23 19:08:10 Z
+  updated_at: 2010-05-23 19:08:10 Z
+line_stations_264: 
+  id: 264
+  line_id: 5
+  station_id: 20
+  created_at: 2010-05-23 19:08:10 Z
+  updated_at: 2010-05-23 19:08:10 Z
+line_stations_265: 
+  id: 265
+  line_id: 5
+  station_id: 105
+  created_at: 2010-05-23 19:08:11 Z
+  updated_at: 2010-05-23 19:08:11 Z
+line_stations_266: 
+  id: 266
+  line_id: 5
+  station_id: 221
+  created_at: 2010-05-23 19:08:11 Z
+  updated_at: 2010-05-23 19:08:11 Z
+line_stations_267: 
+  id: 267
+  line_id: 5
+  station_id: 191
+  created_at: 2010-05-23 19:08:11 Z
+  updated_at: 2010-05-23 19:08:11 Z
+line_stations_268: 
+  id: 268
+  line_id: 5
+  station_id: 222
+  created_at: 2010-05-23 19:08:12 Z
+  updated_at: 2010-05-23 19:08:12 Z
+line_stations_269: 
+  id: 269
+  line_id: 5
+  station_id: 132
+  created_at: 2010-05-23 19:08:12 Z
+  updated_at: 2010-05-23 19:08:12 Z
+line_stations_270: 
+  id: 270
+  line_id: 5
+  station_id: 173
+  created_at: 2010-05-23 19:08:12 Z
+  updated_at: 2010-05-23 19:08:12 Z
+line_stations_271: 
+  id: 271
+  line_id: 5
+  station_id: 151
+  created_at: 2010-05-23 19:08:12 Z
+  updated_at: 2010-05-23 19:08:12 Z
+line_stations_272: 
+  id: 272
+  line_id: 5
+  station_id: 223
+  created_at: 2010-05-23 19:08:13 Z
+  updated_at: 2010-05-23 19:08:13 Z
+line_stations_273: 
+  id: 273
+  line_id: 5
+  station_id: 224
+  created_at: 2010-05-23 19:08:13 Z
+  updated_at: 2010-05-23 19:08:13 Z
+line_stations_274: 
+  id: 274
+  line_id: 5
+  station_id: 225
+  created_at: 2010-05-23 19:08:13 Z
+  updated_at: 2010-05-23 19:08:13 Z
+line_stations_275: 
+  id: 275
+  line_id: 5
+  station_id: 226
+  created_at: 2010-05-23 19:08:14 Z
+  updated_at: 2010-05-23 19:08:14 Z
+line_stations_276: 
+  id: 276
+  line_id: 5
+  station_id: 227
+  created_at: 2010-05-23 19:08:14 Z
+  updated_at: 2010-05-23 19:08:14 Z
+line_stations_277: 
+  id: 277
+  line_id: 5
+  station_id: 228
+  created_at: 2010-05-23 19:08:14 Z
+  updated_at: 2010-05-23 19:08:14 Z
+line_stations_278: 
+  id: 278
+  line_id: 5
+  station_id: 9
+  created_at: 2010-05-23 19:08:14 Z
+  updated_at: 2010-05-23 19:08:14 Z
+line_stations_279: 
+  id: 279
+  line_id: 5
+  station_id: 229
+  created_at: 2010-05-23 19:08:15 Z
+  updated_at: 2010-05-23 19:08:15 Z
+line_stations_280: 
+  id: 280
+  line_id: 5
+  station_id: 230
+  created_at: 2010-05-23 19:08:15 Z
+  updated_at: 2010-05-23 19:08:15 Z
+line_stations_281: 
+  id: 281
+  line_id: 5
+  station_id: 231
+  created_at: 2010-05-23 19:08:15 Z
+  updated_at: 2010-05-23 19:08:15 Z
+line_stations_282: 
+  id: 282
+  line_id: 5
+  station_id: 232
+  created_at: 2010-05-23 19:08:16 Z
+  updated_at: 2010-05-23 19:08:16 Z
+line_stations_283: 
+  id: 283
+  line_id: 5
+  station_id: 233
+  created_at: 2010-05-23 19:08:16 Z
+  updated_at: 2010-05-23 19:08:16 Z
+line_stations_284: 
+  id: 284
+  line_id: 5
+  station_id: 234
+  created_at: 2010-05-23 19:08:16 Z
+  updated_at: 2010-05-23 19:08:16 Z
+line_stations_285: 
+  id: 285
+  line_id: 5
+  station_id: 194
+  created_at: 2010-05-23 19:08:16 Z
+  updated_at: 2010-05-23 19:08:16 Z

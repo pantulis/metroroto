@@ -1,0 +1,1873 @@
+--- 
+stations_1: 
+  id: 1
+  name: "Plaza El\xC3\xADptica"
+  nicename: plaza-eliptica
+  lat: 40.3846
+  long: -3.71847
+  created_at: 2010-05-23 19:05:45 Z
+  updated_at: 2010-05-23 19:08:16 Z
+stations_2: 
+  id: 2
+  name: Abrantes
+  nicename: abrantes
+  lat: 40.3808
+  long: -3.72791
+  created_at: 2010-05-23 19:05:46 Z
+  updated_at: 2010-05-23 19:05:46 Z
+stations_3: 
+  id: 3
+  name: Pan Bendito
+  nicename: pan-bendito
+  lat: 40.3759
+  long: -3.73417
+  created_at: 2010-05-23 19:05:46 Z
+  updated_at: 2010-05-23 19:05:46 Z
+stations_4: 
+  id: 4
+  name: San Francisco
+  nicename: san-francisco
+  lat: 40.3736
+  long: -3.7391
+  created_at: 2010-05-23 19:05:46 Z
+  updated_at: 2010-05-23 19:05:46 Z
+stations_5: 
+  id: 5
+  name: Carabanchel Alto
+  nicename: carabanchel-alto
+  lat: 40.3719
+  long: -3.75197
+  created_at: 2010-05-23 19:05:46 Z
+  updated_at: 2010-05-23 19:05:46 Z
+stations_6: 
+  id: 6
+  name: La Peseta
+  nicename: la-peseta
+  lat: 40.3642
+  long: -3.7569
+  created_at: 2010-05-23 19:05:47 Z
+  updated_at: 2010-05-23 19:05:47 Z
+stations_7: 
+  id: 7
+  name: Laguna
+  nicename: laguna
+  lat: 40.3992
+  long: -3.74427
+  created_at: 2010-05-23 19:05:52 Z
+  updated_at: 2010-05-23 19:05:52 Z
+stations_8: 
+  id: 8
+  name: Carpetana
+  nicename: carpetana
+  lat: 40.3927
+  long: -3.74099
+  created_at: 2010-05-23 19:05:52 Z
+  updated_at: 2010-05-23 19:05:52 Z
+stations_9: 
+  id: 9
+  name: Oporto
+  nicename: oporto
+  lat: 40.3885
+  long: -3.73132
+  created_at: 2010-05-23 19:05:52 Z
+  updated_at: 2010-05-23 19:05:52 Z
+stations_10: 
+  id: 10
+  name: "Opa\xC3\xB1el"
+  nicename: opanel
+  lat: 40.3869
+  long: -3.72313
+  created_at: 2010-05-23 19:05:53 Z
+  updated_at: 2010-05-23 19:05:53 Z
+stations_11: 
+  id: 11
+  name: Usera
+  nicename: usera
+  lat: 40.3871
+  long: -3.70689
+  created_at: 2010-05-23 19:05:53 Z
+  updated_at: 2010-05-23 19:05:53 Z
+stations_12: 
+  id: 12
+  name: Legazpi
+  nicename: legazpi
+  lat: 40.3912
+  long: -3.69512
+  created_at: 2010-05-23 19:05:53 Z
+  updated_at: 2010-05-23 19:05:53 Z
+stations_13: 
+  id: 13
+  name: Arganzuela - Planetario
+  nicename: arganzuela-planetario
+  lat: 40.3931
+  long: -3.68864
+  created_at: 2010-05-23 19:05:54 Z
+  updated_at: 2010-05-23 19:05:54 Z
+stations_14: 
+  id: 14
+  name: "M\xC3\xA9ndez \xC3\x81lvaro"
+  nicename: mendez-alvaro
+  lat: 40.3972
+  long: -3.68201
+  created_at: 2010-05-23 19:05:54 Z
+  updated_at: 2010-05-23 19:05:54 Z
+stations_15: 
+  id: 15
+  name: "Pac\xC3\xADfico"
+  nicename: pacifico
+  lat: 40.4013
+  long: -3.67513
+  created_at: 2010-05-23 19:05:55 Z
+  updated_at: 2010-05-23 19:05:55 Z
+stations_16: 
+  id: 16
+  name: Conde de Casal
+  nicename: conde-de-casal
+  lat: 40.407
+  long: -3.6704
+  created_at: 2010-05-23 19:05:55 Z
+  updated_at: 2010-05-23 19:05:55 Z
+stations_17: 
+  id: 17
+  name: Sainz de Baranda
+  nicename: sainz-de-baranda
+  lat: 40.4145
+  long: -3.66987
+  created_at: 2010-05-23 19:05:55 Z
+  updated_at: 2010-05-23 19:05:55 Z
+stations_18: 
+  id: 18
+  name: O' Donnell
+  nicename: o-donnell
+  lat: 40.4229
+  long: -3.66859
+  created_at: 2010-05-23 19:05:55 Z
+  updated_at: 2010-05-23 19:05:55 Z
+stations_19: 
+  id: 19
+  name: Manuel Becerra
+  nicename: manuel-becerra
+  lat: 40.4279
+  long: -3.66926
+  created_at: 2010-05-23 19:05:56 Z
+  updated_at: 2010-05-23 19:05:56 Z
+stations_20: 
+  id: 20
+  name: "Diego de Le\xC3\xB3n"
+  nicename: diego-de-leon
+  lat: 40.4347
+  long: -3.67496
+  created_at: 2010-05-23 19:05:56 Z
+  updated_at: 2010-05-23 19:05:56 Z
+stations_21: 
+  id: 21
+  name: "Avenida de Am\xC3\xA9rica"
+  nicename: avenida-de-america
+  lat: 40.438
+  long: -3.67669
+  created_at: 2010-05-23 19:05:56 Z
+  updated_at: 2010-05-23 19:08:16 Z
+stations_22: 
+  id: 22
+  name: "Rep\xC3\xBAblica Argentina"
+  nicename: republica-argentina
+  lat: 40.4466
+  long: -3.69241
+  created_at: 2010-05-23 19:05:57 Z
+  updated_at: 2010-05-23 19:05:57 Z
+stations_23: 
+  id: 23
+  name: Nuevos Ministerios
+  nicename: nuevos-ministerios
+  lat: 40.4466
+  long: -3.69241
+  created_at: 2010-05-23 19:05:57 Z
+  updated_at: 2010-05-23 19:05:57 Z
+stations_24: 
+  id: 24
+  name: Cuatro Caminos
+  nicename: cuatro-caminos
+  lat: 40.447
+  long: -3.70397
+  created_at: 2010-05-23 19:05:57 Z
+  updated_at: 2010-05-23 19:05:57 Z
+stations_25: 
+  id: 25
+  name: "Guzm\xC3\xA1n el Bueno"
+  nicename: guzman-el-bueno
+  lat: 40.4461
+  long: -3.71361
+  created_at: 2010-05-23 19:05:58 Z
+  updated_at: 2010-05-23 19:05:58 Z
+stations_26: 
+  id: 26
+  name: Metropolitano
+  nicename: metropolitano
+  lat: 40.4464
+  long: -3.71943
+  created_at: 2010-05-23 19:05:58 Z
+  updated_at: 2010-05-23 19:05:58 Z
+stations_27: 
+  id: 27
+  name: Ciudad Universitaria
+  nicename: ciudad-universitaria
+  lat: 40.444
+  long: -3.72609
+  created_at: 2010-05-23 19:05:58 Z
+  updated_at: 2010-05-23 19:05:58 Z
+stations_28: 
+  id: 28
+  name: Moncloa
+  nicename: moncloa
+  lat: 40.4352
+  long: -3.71919
+  created_at: 2010-05-23 19:05:59 Z
+  updated_at: 2010-05-23 19:08:16 Z
+stations_29: 
+  id: 29
+  name: "Arg\xC3\xBCelles"
+  nicename: arguelles
+  lat: 40.4305
+  long: -3.71582
+  created_at: 2010-05-23 19:05:59 Z
+  updated_at: 2010-05-23 19:05:59 Z
+stations_30: 
+  id: 30
+  name: "Pr\xC3\xADncipe P\xC3\xADo"
+  nicename: principe-pio
+  lat: 40.4211
+  long: -3.72038
+  created_at: 2010-05-23 19:05:59 Z
+  updated_at: 2010-05-23 19:08:16 Z
+stations_31: 
+  id: 31
+  name: "Puerta del \xC3\x83\xC2\x81ngel"
+  nicename: puerta-del-angel
+  lat: 40.4139
+  long: -3.72724
+  created_at: 2010-05-23 19:05:59 Z
+  updated_at: 2010-05-23 19:05:59 Z
+stations_32: 
+  id: 32
+  name: Alto de Extremadura
+  nicename: alto-de-extremadura
+  lat: 40.4099
+  long: -3.73893
+  created_at: 2010-05-23 19:06:00 Z
+  updated_at: 2010-05-23 19:06:00 Z
+stations_33: 
+  id: 33
+  name: Lucero
+  nicename: lucero
+  lat: 40.4051
+  long: -3.74534
+  created_at: 2010-05-23 19:06:00 Z
+  updated_at: 2010-05-23 19:06:00 Z
+stations_34: 
+  id: 34
+  name: Puerta del Sur
+  nicename: puerta-del-sur
+  lat: 40.3452
+  long: -3.81211
+  created_at: 2010-05-23 19:06:08 Z
+  updated_at: 2010-05-23 19:06:08 Z
+stations_35: 
+  id: 35
+  name: Parque Lisboa
+  nicename: parque-lisboa
+  lat: 40.3497
+  long: -3.82119
+  created_at: 2010-05-23 19:06:08 Z
+  updated_at: 2010-05-23 19:06:08 Z
+stations_36: 
+  id: 36
+  name: "Alcorc\xC3\xB3n Central"
+  nicename: alcorcon-central
+  lat: 40.3501
+  long: -3.83177
+  created_at: 2010-05-23 19:06:09 Z
+  updated_at: 2010-05-23 19:06:09 Z
+stations_37: 
+  id: 37
+  name: Parque Oeste
+  nicename: parque-oeste
+  lat: 40.3459
+  long: -3.84934
+  created_at: 2010-05-23 19:06:09 Z
+  updated_at: 2010-05-23 19:06:09 Z
+stations_38: 
+  id: 38
+  name: Universidad Rey Juan Carlos
+  nicename: universidad-rey-juan-carlos
+  lat: 40.3351
+  long: -3.87218
+  created_at: 2010-05-23 19:06:09 Z
+  updated_at: 2010-05-23 19:06:09 Z
+stations_39: 
+  id: 39
+  name: "M\xC3\xB3stoles Central"
+  nicename: mostoles-central
+  lat: 40.3285
+  long: -3.86354
+  created_at: 2010-05-23 19:06:09 Z
+  updated_at: 2010-05-23 19:06:09 Z
+stations_40: 
+  id: 40
+  name: Pradillo
+  nicename: pradillo
+  lat: 40.3217
+  long: -3.86489
+  created_at: 2010-05-23 19:06:10 Z
+  updated_at: 2010-05-23 19:06:10 Z
+stations_41: 
+  id: 41
+  name: "Hospital de M\xC3\xB3stoles"
+  nicename: hospital-de-mostoles
+  lat: 40.3165
+  long: -3.87471
+  created_at: 2010-05-23 19:06:10 Z
+  updated_at: 2010-05-23 19:06:10 Z
+stations_42: 
+  id: 42
+  name: "Manuela Malasa\xC3\xB1a"
+  nicename: manuela-malasana
+  lat: 40.309
+  long: -3.86402
+  created_at: 2010-05-23 19:06:10 Z
+  updated_at: 2010-05-23 19:06:10 Z
+stations_43: 
+  id: 43
+  name: Loranca
+  nicename: loranca
+  lat: 40.2968
+  long: -3.83769
+  created_at: 2010-05-23 19:06:11 Z
+  updated_at: 2010-05-23 19:06:11 Z
+stations_44: 
+  id: 44
+  name: Hospital de Fuenlabrada
+  nicename: hospital-de-fuenlabrada
+  lat: 40.2858
+  long: -3.81642
+  created_at: 2010-05-23 19:06:11 Z
+  updated_at: 2010-05-23 19:06:11 Z
+stations_45: 
+  id: 45
+  name: Parque Europa
+  nicename: parque-europa
+  lat: 40.2852
+  long: -3.80632
+  created_at: 2010-05-23 19:06:11 Z
+  updated_at: 2010-05-23 19:06:11 Z
+stations_46: 
+  id: 46
+  name: Fuenlabrada Central
+  nicename: fuenlabrada-central
+  lat: 40.2827
+  long: -3.7989
+  created_at: 2010-05-23 19:06:12 Z
+  updated_at: 2010-05-23 19:06:12 Z
+stations_47: 
+  id: 47
+  name: Parque de los Estados
+  nicename: parque-de-los-estados
+  lat: 40.2868
+  long: -3.78698
+  created_at: 2010-05-23 19:06:12 Z
+  updated_at: 2010-05-23 19:06:12 Z
+stations_48: 
+  id: 48
+  name: Arroyo Culebro
+  nicename: arroyo-culebro
+  lat: 40.2887
+  long: -3.75682
+  created_at: 2010-05-23 19:06:12 Z
+  updated_at: 2010-05-23 19:06:12 Z
+stations_49: 
+  id: 49
+  name: Conservatorio
+  nicename: conservatorio
+  lat: 40.2932
+  long: -3.74577
+  created_at: 2010-05-23 19:06:12 Z
+  updated_at: 2010-05-23 19:06:12 Z
+stations_50: 
+  id: 50
+  name: Alonso de Mendoza
+  nicename: alonso-de-mendoza
+  lat: 40.3008
+  long: -3.73664
+  created_at: 2010-05-23 19:06:13 Z
+  updated_at: 2010-05-23 19:06:13 Z
+stations_51: 
+  id: 51
+  name: Getafe Central
+  nicename: getafe-central
+  lat: 40.3099
+  long: -3.73403
+  created_at: 2010-05-23 19:06:13 Z
+  updated_at: 2010-05-23 19:06:13 Z
+stations_52: 
+  id: 52
+  name: Juan de la Cierva
+  nicename: juan-de-la-cierva
+  lat: 40.3118
+  long: -3.72225
+  created_at: 2010-05-23 19:06:13 Z
+  updated_at: 2010-05-23 19:06:13 Z
+stations_53: 
+  id: 53
+  name: El Casar
+  nicename: el-casar
+  lat: 40.3186
+  long: -3.70985
+  created_at: 2010-05-23 19:06:14 Z
+  updated_at: 2010-05-23 19:06:14 Z
+stations_54: 
+  id: 54
+  name: Los Espartales
+  nicename: los-espartales
+  lat: 40.3242
+  long: -3.7182
+  created_at: 2010-05-23 19:06:14 Z
+  updated_at: 2010-05-23 19:06:14 Z
+stations_55: 
+  id: 55
+  name: El Bercial
+  nicename: el-bercial
+  lat: 40.3291
+  long: -3.72963
+  created_at: 2010-05-23 19:06:14 Z
+  updated_at: 2010-05-23 19:06:14 Z
+stations_56: 
+  id: 56
+  name: El Carrascal
+  nicename: el-carrascal
+  lat: 40.3366
+  long: -3.74018
+  created_at: 2010-05-23 19:06:15 Z
+  updated_at: 2010-05-23 19:06:15 Z
+stations_57: 
+  id: 57
+  name: "Juli\xC3\xA1n Besteiro"
+  nicename: julian-besteiro
+  lat: 40.3347
+  long: -3.75266
+  created_at: 2010-05-23 19:06:15 Z
+  updated_at: 2010-05-23 19:06:15 Z
+stations_58: 
+  id: 58
+  name: Casa del Reloj
+  nicename: casa-del-reloj
+  lat: 40.3266
+  long: -3.75942
+  created_at: 2010-05-23 19:06:15 Z
+  updated_at: 2010-05-23 19:06:15 Z
+stations_59: 
+  id: 59
+  name: Hospital Severo Ochoa
+  nicename: hospital-severo-ochoa
+  lat: 40.3218
+  long: -3.76797
+  created_at: 2010-05-23 19:06:15 Z
+  updated_at: 2010-05-23 19:06:15 Z
+stations_60: 
+  id: 60
+  name: "Legan\xC3\xA9s Central"
+  nicename: leganes-central
+  lat: 40.329
+  long: -3.77154
+  created_at: 2010-05-23 19:06:16 Z
+  updated_at: 2010-05-23 19:06:16 Z
+stations_61: 
+  id: 61
+  name: San Nicasio
+  nicename: san-nicasio
+  lat: 40.3362
+  long: -3.77587
+  created_at: 2010-05-23 19:06:16 Z
+  updated_at: 2010-05-23 19:06:16 Z
+stations_62: 
+  id: 62
+  name: Hospital del Henares
+  nicename: hospital-del-henares
+  lat: 40.4176
+  long: -3.53453
+  created_at: 2010-05-23 19:06:22 Z
+  updated_at: 2010-05-23 19:06:22 Z
+stations_63: 
+  id: 63
+  name: Henares
+  nicename: henares
+  lat: 40.4178
+  long: -3.52718
+  created_at: 2010-05-23 19:06:22 Z
+  updated_at: 2010-05-23 19:06:22 Z
+stations_64: 
+  id: 64
+  name: Jarama
+  nicename: jarama
+  lat: 40.423
+  long: -3.5255
+  created_at: 2010-05-23 19:06:22 Z
+  updated_at: 2010-05-23 19:06:22 Z
+stations_65: 
+  id: 65
+  name: San Fernando
+  nicename: san-fernando
+  lat: 40.4244
+  long: -3.53541
+  created_at: 2010-05-23 19:06:23 Z
+  updated_at: 2010-05-23 19:06:23 Z
+stations_66: 
+  id: 66
+  name: La Rambla
+  nicename: la-rambla
+  lat: 40.4251
+  long: -3.54792
+  created_at: 2010-05-23 19:06:23 Z
+  updated_at: 2010-05-23 19:06:23 Z
+stations_67: 
+  id: 67
+  name: Coslada Central
+  nicename: coslada-central
+  lat: 40.4237
+  long: -3.56119
+  created_at: 2010-05-23 19:06:23 Z
+  updated_at: 2010-05-23 19:06:23 Z
+stations_68: 
+  id: 68
+  name: Barrio del Puerto
+  nicename: barrio-del-puerto
+  lat: 40.4225
+  long: -3.56919
+  created_at: 2010-05-23 19:06:24 Z
+  updated_at: 2010-05-23 19:06:24 Z
+stations_69: 
+  id: 69
+  name: "Estadio Ol\xC3\xADmpico"
+  nicename: estadio-olimpico
+  lat: 40.4334
+  long: -3.60015
+  created_at: 2010-05-23 19:06:24 Z
+  updated_at: 2010-05-23 19:06:24 Z
+stations_70: 
+  id: 70
+  name: Las Musas
+  nicename: las-musas
+  lat: 40.433
+  long: -3.60788
+  created_at: 2010-05-23 19:06:24 Z
+  updated_at: 2010-05-23 19:06:24 Z
+stations_71: 
+  id: 71
+  name: San Blas
+  nicename: san-blas
+  lat: 40.428
+  long: -3.61546
+  created_at: 2010-05-23 19:06:25 Z
+  updated_at: 2010-05-23 19:06:25 Z
+stations_72: 
+  id: 72
+  name: Simancas
+  nicename: simancas
+  lat: 40.428
+  long: -3.62572
+  created_at: 2010-05-23 19:06:25 Z
+  updated_at: 2010-05-23 19:06:25 Z
+stations_73: 
+  id: 73
+  name: "Garc\xC3\xADa Noblejas"
+  nicename: garcia-noblejas
+  lat: 40.4284
+  long: -3.6333
+  created_at: 2010-05-23 19:06:25 Z
+  updated_at: 2010-05-23 19:06:25 Z
+stations_74: 
+  id: 74
+  name: Ascao
+  nicename: ascao
+  lat: 40.4304
+  long: -3.64069
+  created_at: 2010-05-23 19:06:26 Z
+  updated_at: 2010-05-23 19:06:26 Z
+stations_75: 
+  id: 75
+  name: Pueblo Nuevo
+  nicename: pueblo-nuevo
+  lat: 40.4363
+  long: -3.64178
+  created_at: 2010-05-23 19:06:26 Z
+  updated_at: 2010-05-23 19:06:26 Z
+stations_76: 
+  id: 76
+  name: "Barrio de la Concepci\xC3\xB3n"
+  nicename: barrio-de-la-concepcion
+  lat: 40.4391
+  long: -3.652
+  created_at: 2010-05-23 19:06:26 Z
+  updated_at: 2010-05-23 19:06:26 Z
+stations_77: 
+  id: 77
+  name: Parque de las Avenidas
+  nicename: parque-de-las-avenidas
+  lat: 40.4391
+  long: -3.66309
+  created_at: 2010-05-23 19:06:26 Z
+  updated_at: 2010-05-23 19:06:26 Z
+stations_78: 
+  id: 78
+  name: Cartagena
+  nicename: cartagena
+  lat: 40.4395
+  long: -3.6722
+  created_at: 2010-05-23 19:06:27 Z
+  updated_at: 2010-05-23 19:06:27 Z
+stations_79: 
+  id: 79
+  name: "Gregorio Mara\xC3\xB1\xC3\xB3n"
+  nicename: gregorio-maranon
+  lat: 40.4383
+  long: -3.69149
+  created_at: 2010-05-23 19:06:27 Z
+  updated_at: 2010-05-23 19:06:27 Z
+stations_80: 
+  id: 80
+  name: Alonso Cano
+  nicename: alonso-cano
+  lat: 40.4384
+  long: -3.69925
+  created_at: 2010-05-23 19:06:28 Z
+  updated_at: 2010-05-23 19:06:28 Z
+stations_81: 
+  id: 81
+  name: Canal
+  nicename: canal
+  lat: 40.4384
+  long: -3.70433
+  created_at: 2010-05-23 19:06:28 Z
+  updated_at: 2010-05-23 19:06:28 Z
+stations_82: 
+  id: 82
+  name: Islas Filipinas
+  nicename: islas-filipinas
+  lat: 40.4391
+  long: -3.71373
+  created_at: 2010-05-23 19:06:28 Z
+  updated_at: 2010-05-23 19:06:28 Z
+stations_83: 
+  id: 83
+  name: "Francos Rodr\xC3\xADguez"
+  nicename: francos-rodriguez
+  lat: 40.4565
+  long: -3.71239
+  created_at: 2010-05-23 19:06:29 Z
+  updated_at: 2010-05-23 19:06:29 Z
+stations_84: 
+  id: 84
+  name: Valdezarza
+  nicename: valdezarza
+  lat: 40.4648
+  long: -3.71598
+  created_at: 2010-05-23 19:06:29 Z
+  updated_at: 2010-05-23 19:06:29 Z
+stations_85: 
+  id: 85
+  name: Antonio Machado
+  nicename: antonio-machado
+  lat: 40.4702
+  long: -3.7177
+  created_at: 2010-05-23 19:06:29 Z
+  updated_at: 2010-05-23 19:06:29 Z
+stations_86: 
+  id: 86
+  name: "Pe\xC3\xB1agrande"
+  nicename: penagrande
+  lat: 40.4759
+  long: -3.71582
+  created_at: 2010-05-23 19:06:30 Z
+  updated_at: 2010-05-23 19:06:30 Z
+stations_87: 
+  id: 87
+  name: "Avenida de la Ilustraci\xC3\xB3n"
+  nicename: avenida-de-la-ilustracion
+  lat: 40.4801
+  long: -3.7184
+  created_at: 2010-05-23 19:06:30 Z
+  updated_at: 2010-05-23 19:06:30 Z
+stations_88: 
+  id: 88
+  name: Lacoma
+  nicename: lacoma
+  lat: 40.485
+  long: -3.72305
+  created_at: 2010-05-23 19:06:30 Z
+  updated_at: 2010-05-23 19:06:30 Z
+stations_89: 
+  id: 89
+  name: Pitis
+  nicename: pitis
+  lat: 40.4951
+  long: -3.72589
+  created_at: 2010-05-23 19:06:31 Z
+  updated_at: 2010-05-23 19:06:31 Z
+stations_90: 
+  id: 90
+  name: Colombia
+  nicename: colombia
+  lat: 40.4563
+  long: -3.67683
+  created_at: 2010-05-23 19:06:35 Z
+  updated_at: 2010-05-23 19:06:35 Z
+stations_91: 
+  id: 91
+  name: Pinar del Rey
+  nicename: pinar-del-rey
+  lat: 40.468
+  long: -3.64867
+  created_at: 2010-05-23 19:06:36 Z
+  updated_at: 2010-05-23 19:06:36 Z
+stations_92: 
+  id: 92
+  name: Mar de Cristal
+  nicename: mar-de-cristal
+  lat: 40.4694
+  long: -3.63832
+  created_at: 2010-05-23 19:06:36 Z
+  updated_at: 2010-05-23 19:06:36 Z
+stations_93: 
+  id: 93
+  name: Campo de las Naciones
+  nicename: campo-de-las-naciones
+  lat: 40.4639
+  long: -3.6162
+  created_at: 2010-05-23 19:06:36 Z
+  updated_at: 2010-05-23 19:06:36 Z
+stations_94: 
+  id: 94
+  name: Aeropuerto T1 T2 T3
+  nicename: aeropuerto-t1-t2-t3
+  lat: 40.4686
+  long: -3.56953
+  created_at: 2010-05-23 19:06:36 Z
+  updated_at: 2010-05-23 19:06:36 Z
+stations_95: 
+  id: 95
+  name: Barajas
+  nicename: barajas
+  lat: 40.4758
+  long: -3.58258
+  created_at: 2010-05-23 19:06:37 Z
+  updated_at: 2010-05-23 19:06:37 Z
+stations_96: 
+  id: 96
+  name: Aeropuerto T4
+  nicename: aeropuerto-t4
+  lat: 40.4918
+  long: -3.59325
+  created_at: 2010-05-23 19:06:37 Z
+  updated_at: 2010-05-23 19:06:37 Z
+stations_97: 
+  id: 97
+  name: Herrera Oria
+  nicename: herrera-oria
+  lat: 40.4847
+  long: -3.70752
+  created_at: 2010-05-23 19:06:48 Z
+  updated_at: 2010-05-23 19:06:48 Z
+stations_98: 
+  id: 98
+  name: Barrio del Pilar
+  nicename: barrio-del-pilar
+  lat: 40.4769
+  long: -3.70316
+  created_at: 2010-05-23 19:06:48 Z
+  updated_at: 2010-05-23 19:06:48 Z
+stations_99: 
+  id: 99
+  name: Ventilla
+  nicename: ventilla
+  lat: 40.4694
+  long: -3.69588
+  created_at: 2010-05-23 19:06:48 Z
+  updated_at: 2010-05-23 19:06:48 Z
+stations_100: 
+  id: 100
+  name: Plaza de Castilla
+  nicename: plaza-de-castilla
+  lat: 40.4669
+  long: -3.68921
+  created_at: 2010-05-23 19:06:48 Z
+  updated_at: 2010-05-23 19:08:16 Z
+stations_101: 
+  id: 101
+  name: Duque de Pastrana
+  nicename: duque-de-pastrana
+  lat: 40.4676
+  long: -3.67917
+  created_at: 2010-05-23 19:06:49 Z
+  updated_at: 2010-05-23 19:06:49 Z
+stations_102: 
+  id: 102
+  name: "P\xC3\xADo XII"
+  nicename: pio-xii
+  lat: 40.463
+  long: -3.6758
+  created_at: 2010-05-23 19:06:49 Z
+  updated_at: 2010-05-23 19:06:49 Z
+stations_103: 
+  id: 103
+  name: Concha Espina
+  nicename: concha-espina
+  lat: 40.4514
+  long: -3.67738
+  created_at: 2010-05-23 19:06:50 Z
+  updated_at: 2010-05-23 19:06:50 Z
+stations_104: 
+  id: 104
+  name: Cruz del Rayo
+  nicename: cruz-del-rayo
+  lat: 40.4443
+  long: -3.67821
+  created_at: 2010-05-23 19:06:50 Z
+  updated_at: 2010-05-23 19:06:50 Z
+stations_105: 
+  id: 105
+  name: "N\xC3\xBA\xC3\xB1ez de Balboa"
+  nicename: nunez-de-balboa
+  lat: 40.4326
+  long: -3.67972
+  created_at: 2010-05-23 19:06:51 Z
+  updated_at: 2010-05-23 19:06:51 Z
+stations_106: 
+  id: 106
+  name: "Pr\xC3\xADncipe de Vergara"
+  nicename: principe-de-vergara
+  lat: 40.4229
+  long: -3.68012
+  created_at: 2010-05-23 19:06:51 Z
+  updated_at: 2010-05-23 19:06:51 Z
+stations_107: 
+  id: 107
+  name: Ibiza
+  nicename: ibiza
+  lat: 40.4184
+  long: -3.67858
+  created_at: 2010-05-23 19:06:51 Z
+  updated_at: 2010-05-23 19:06:51 Z
+stations_108: 
+  id: 108
+  name: Estrella
+  nicename: estrella
+  lat: 40.4115
+  long: -3.66179
+  created_at: 2010-05-23 19:06:52 Z
+  updated_at: 2010-05-23 19:06:52 Z
+stations_109: 
+  id: 109
+  name: Vinateros
+  nicename: vinateros
+  lat: 40.4102
+  long: -3.65273
+  created_at: 2010-05-23 19:06:52 Z
+  updated_at: 2010-05-23 19:06:52 Z
+stations_110: 
+  id: 110
+  name: Artilleros
+  nicename: artilleros
+  lat: 40.4052
+  long: -3.64181
+  created_at: 2010-05-23 19:06:52 Z
+  updated_at: 2010-05-23 19:06:52 Z
+stations_111: 
+  id: 111
+  name: Pavones
+  nicename: pavones
+  lat: 40.4005
+  long: -3.63512
+  created_at: 2010-05-23 19:06:53 Z
+  updated_at: 2010-05-23 19:06:53 Z
+stations_112: 
+  id: 112
+  name: Valdebernardo
+  nicename: valdebernardo
+  lat: 40.4
+  long: -3.62156
+  created_at: 2010-05-23 19:06:53 Z
+  updated_at: 2010-05-23 19:06:53 Z
+stations_113: 
+  id: 113
+  name: "Vic\xC3\xA1lvaro"
+  nicename: vicalvaro
+  lat: 40.4042
+  long: -3.60886
+  created_at: 2010-05-23 19:06:53 Z
+  updated_at: 2010-05-23 19:06:53 Z
+stations_114: 
+  id: 114
+  name: San Cipriano
+  nicename: san-cipriano
+  lat: 40.4038
+  long: -3.6024
+  created_at: 2010-05-23 19:06:53 Z
+  updated_at: 2010-05-23 19:06:53 Z
+stations_115: 
+  id: 115
+  name: Puerta de Arganda
+  nicename: puerta-de-arganda
+  lat: 40.4013
+  long: -3.59598
+  created_at: 2010-05-23 19:06:54 Z
+  updated_at: 2010-05-23 19:06:54 Z
+stations_116: 
+  id: 116
+  name: Rivas Urbanizaciones
+  nicename: rivas-urbanizaciones
+  lat: 40.3668
+  long: -3.54728
+  created_at: 2010-05-23 19:06:54 Z
+  updated_at: 2010-05-23 19:06:54 Z
+stations_117: 
+  id: 117
+  name: Rivas Futura
+  nicename: rivas-futura
+  lat: 40.3413
+  long: -3.52479
+  created_at: 2010-05-23 19:06:55 Z
+  updated_at: 2010-05-23 19:06:55 Z
+stations_118: 
+  id: 118
+  name: Rivas Vaciamadrid
+  nicename: rivas-vaciamadrid
+  lat: 40.3284
+  long: -3.5206
+  created_at: 2010-05-23 19:06:55 Z
+  updated_at: 2010-05-23 19:06:55 Z
+stations_119: 
+  id: 119
+  name: La Poveda
+  nicename: la-poveda
+  lat: 40.319
+  long: -3.47745
+  created_at: 2010-05-23 19:06:55 Z
+  updated_at: 2010-05-23 19:06:55 Z
+stations_120: 
+  id: 120
+  name: Arganda del Rey
+  nicename: arganda-del-rey
+  lat: 40.3045
+  long: -3.44768
+  created_at: 2010-05-23 19:06:56 Z
+  updated_at: 2010-05-23 19:06:56 Z
+stations_121: 
+  id: 121
+  name: "Pinar de Chamart\xC3\xADn"
+  nicename: pinar-de-chamartin
+  lat: 40.4801
+  long: -3.6668
+  created_at: 2010-05-23 19:07:02 Z
+  updated_at: 2010-05-23 19:08:16 Z
+stations_122: 
+  id: 122
+  name: "Bamb\xC3\xBA"
+  nicename: bambu
+  lat: 40.4756
+  long: -3.67664
+  created_at: 2010-05-23 19:07:02 Z
+  updated_at: 2010-05-23 19:07:02 Z
+stations_123: 
+  id: 123
+  name: "Chamart\xC3\xADn"
+  nicename: chamartin
+  lat: 40.472
+  long: -3.68259
+  created_at: 2010-05-23 19:07:02 Z
+  updated_at: 2010-05-23 19:07:02 Z
+stations_124: 
+  id: 124
+  name: Valdeacederas
+  nicename: valdeacederas
+  lat: 40.4644
+  long: -3.69506
+  created_at: 2010-05-23 19:07:03 Z
+  updated_at: 2010-05-23 19:07:03 Z
+stations_125: 
+  id: 125
+  name: "Tetu\xC3\xA1n"
+  nicename: tetuan
+  lat: 40.4606
+  long: -3.69825
+  created_at: 2010-05-23 19:07:03 Z
+  updated_at: 2010-05-23 19:07:03 Z
+stations_126: 
+  id: 126
+  name: Estrecho
+  nicename: estrecho
+  lat: 40.4543
+  long: -3.70302
+  created_at: 2010-05-23 19:07:03 Z
+  updated_at: 2010-05-23 19:07:03 Z
+stations_127: 
+  id: 127
+  name: Alvarado
+  nicename: alvarado
+  lat: 40.4503
+  long: -3.70331
+  created_at: 2010-05-23 19:07:04 Z
+  updated_at: 2010-05-23 19:07:04 Z
+stations_128: 
+  id: 128
+  name: "R\xC3\xADos rosas"
+  nicename: rios-rosas
+  lat: 40.4419
+  long: -3.70158
+  created_at: 2010-05-23 19:07:04 Z
+  updated_at: 2010-05-23 19:07:04 Z
+stations_129: 
+  id: 129
+  name: Iglesia
+  nicename: iglesia
+  lat: 40.4351
+  long: -3.699
+  created_at: 2010-05-23 19:07:05 Z
+  updated_at: 2010-05-23 19:07:05 Z
+stations_130: 
+  id: 130
+  name: Bilbao
+  nicename: bilbao
+  lat: 40.4291
+  long: -3.70218
+  created_at: 2010-05-23 19:07:05 Z
+  updated_at: 2010-05-23 19:07:05 Z
+stations_131: 
+  id: 131
+  name: Tribunal
+  nicename: tribunal
+  lat: 40.4262
+  long: -3.7011
+  created_at: 2010-05-23 19:07:05 Z
+  updated_at: 2010-05-23 19:07:05 Z
+stations_132: 
+  id: 132
+  name: "Gran V\xC3\xADa"
+  nicename: gran-via
+  lat: 40.42
+  long: -3.70184
+  created_at: 2010-05-23 19:07:05 Z
+  updated_at: 2010-05-23 19:07:05 Z
+stations_133: 
+  id: 133
+  name: Sol
+  nicename: sol
+  lat: 40.4169
+  long: -3.70326
+  created_at: 2010-05-23 19:07:06 Z
+  updated_at: 2010-05-23 19:07:06 Z
+stations_134: 
+  id: 134
+  name: Tirso de Molina
+  nicename: tirso-de-molina
+  lat: 40.4123
+  long: -3.70466
+  created_at: 2010-05-23 19:07:06 Z
+  updated_at: 2010-05-23 19:07:06 Z
+stations_135: 
+  id: 135
+  name: "Ant\xC3\xB3n Mart\xC3\xADn"
+  nicename: anton-martin
+  lat: 40.4125
+  long: -3.69937
+  created_at: 2010-05-23 19:07:06 Z
+  updated_at: 2010-05-23 19:07:06 Z
+stations_136: 
+  id: 136
+  name: Atocha
+  nicename: atocha
+  lat: 40.4089
+  long: -3.69248
+  created_at: 2010-05-23 19:07:07 Z
+  updated_at: 2010-05-23 19:07:07 Z
+stations_137: 
+  id: 137
+  name: Atocha Renfe
+  nicename: atocha-renfe
+  lat: 40.4066
+  long: -3.68937
+  created_at: 2010-05-23 19:07:07 Z
+  updated_at: 2010-05-23 19:07:07 Z
+stations_138: 
+  id: 138
+  name: "Men\xC3\xA9ndez Pelayo"
+  nicename: menendez-pelayo
+  lat: 40.4044
+  long: -3.68098
+  created_at: 2010-05-23 19:07:07 Z
+  updated_at: 2010-05-23 19:07:07 Z
+stations_139: 
+  id: 139
+  name: Puente de Vallecas
+  nicename: puente-de-vallecas
+  lat: 40.3982
+  long: -3.66906
+  created_at: 2010-05-23 19:07:08 Z
+  updated_at: 2010-05-23 19:07:08 Z
+stations_140: 
+  id: 140
+  name: Nueva Numancia
+  nicename: nueva-numancia
+  lat: 40.3955
+  long: -3.66414
+  created_at: 2010-05-23 19:07:08 Z
+  updated_at: 2010-05-23 19:07:08 Z
+stations_141: 
+  id: 141
+  name: Portazgo
+  nicename: portazgo
+  lat: 40.3927
+  long: -3.65868
+  created_at: 2010-05-23 19:07:08 Z
+  updated_at: 2010-05-23 19:07:08 Z
+stations_142: 
+  id: 142
+  name: Buenos Aires
+  nicename: buenos-aires
+  lat: 40.3916
+  long: -3.65391
+  created_at: 2010-05-23 19:07:09 Z
+  updated_at: 2010-05-23 19:07:09 Z
+stations_143: 
+  id: 143
+  name: Alto del Arenal
+  nicename: alto-del-arenal
+  lat: 40.3898
+  long: -3.64522
+  created_at: 2010-05-23 19:07:09 Z
+  updated_at: 2010-05-23 19:07:09 Z
+stations_144: 
+  id: 144
+  name: "Miguel Hern\xC3\xA1ndez"
+  nicename: miguel-hernandez
+  lat: 40.3873
+  long: -3.63951
+  created_at: 2010-05-23 19:07:09 Z
+  updated_at: 2010-05-23 19:07:09 Z
+stations_145: 
+  id: 145
+  name: Sierra de Guadalupe
+  nicename: sierra-de-guadalupe
+  lat: 40.3822
+  long: -3.62468
+  created_at: 2010-05-23 19:07:10 Z
+  updated_at: 2010-05-23 19:07:10 Z
+stations_146: 
+  id: 146
+  name: Villa de Vallecas
+  nicename: villa-de-vallecas
+  lat: 40.3796
+  long: -3.6213
+  created_at: 2010-05-23 19:07:10 Z
+  updated_at: 2010-05-23 19:07:10 Z
+stations_147: 
+  id: 147
+  name: Congosto
+  nicename: congosto
+  lat: 40.3724
+  long: -3.61884
+  created_at: 2010-05-23 19:07:10 Z
+  updated_at: 2010-05-23 19:07:10 Z
+stations_148: 
+  id: 148
+  name: La Gavia
+  nicename: la-gavia
+  lat: 40.3702
+  long: -3.61347
+  created_at: 2010-05-23 19:07:10 Z
+  updated_at: 2010-05-23 19:07:10 Z
+stations_149: 
+  id: 149
+  name: Las Suertes
+  nicename: las-suertes
+  lat: 40.3636
+  long: -3.59971
+  created_at: 2010-05-23 19:07:11 Z
+  updated_at: 2010-05-23 19:07:11 Z
+stations_150: 
+  id: 150
+  name: Valdecarros
+  nicename: valdecarros
+  lat: 40.3604
+  long: -3.59241
+  created_at: 2010-05-23 19:07:11 Z
+  updated_at: 2010-05-23 19:07:11 Z
+stations_151: 
+  id: 151
+  name: "\xC3\x93pera"
+  nicename: opera
+  lat: 40.4181
+  long: -3.70942
+  created_at: 2010-05-23 19:07:16 Z
+  updated_at: 2010-05-23 19:07:16 Z
+stations_152: 
+  id: 152
+  name: La Elipa
+  nicename: la-elipa
+  lat: 40.4266
+  long: -3.65052
+  created_at: 2010-05-23 19:07:20 Z
+  updated_at: 2010-05-23 19:07:20 Z
+stations_153: 
+  id: 153
+  name: Ventas
+  nicename: ventas
+  lat: 40.4309
+  long: -3.66366
+  created_at: 2010-05-23 19:07:21 Z
+  updated_at: 2010-05-23 19:07:21 Z
+stations_154: 
+  id: 154
+  name: Goya
+  nicename: goya
+  lat: 40.4245
+  long: -3.67591
+  created_at: 2010-05-23 19:07:21 Z
+  updated_at: 2010-05-23 19:07:21 Z
+stations_155: 
+  id: 155
+  name: Retiro
+  nicename: retiro
+  lat: 40.4203
+  long: -3.68625
+  created_at: 2010-05-23 19:07:22 Z
+  updated_at: 2010-05-23 19:07:22 Z
+stations_156: 
+  id: 156
+  name: "Banco de Espa\xC3\xB1a"
+  nicename: banco-de-espana
+  lat: 40.4192
+  long: -3.69496
+  created_at: 2010-05-23 19:07:22 Z
+  updated_at: 2010-05-23 19:07:22 Z
+stations_157: 
+  id: 157
+  name: Sevilla
+  nicename: sevilla
+  lat: 40.4181
+  long: -3.69925
+  created_at: 2010-05-23 19:07:22 Z
+  updated_at: 2010-05-23 19:07:22 Z
+stations_158: 
+  id: 158
+  name: Santo Domingo
+  nicename: santo-domingo
+  lat: 40.4213
+  long: -3.70796
+  created_at: 2010-05-23 19:07:23 Z
+  updated_at: 2010-05-23 19:07:23 Z
+stations_159: 
+  id: 159
+  name: Noviciado
+  nicename: noviciado
+  lat: 40.4248
+  long: -3.70742
+  created_at: 2010-05-23 19:07:24 Z
+  updated_at: 2010-05-23 19:07:24 Z
+stations_160: 
+  id: 160
+  name: San Bernardo
+  nicename: san-bernardo
+  lat: 40.43
+  long: -3.70557
+  created_at: 2010-05-23 19:07:24 Z
+  updated_at: 2010-05-23 19:07:24 Z
+stations_161: 
+  id: 161
+  name: Quevedo
+  nicename: quevedo
+  lat: 40.4332
+  long: -3.70434
+  created_at: 2010-05-23 19:07:24 Z
+  updated_at: 2010-05-23 19:07:24 Z
+stations_162: 
+  id: 162
+  name: Villaverde Alto
+  nicename: villaverde-alto
+  lat: 40.3412
+  long: -3.71199
+  created_at: 2010-05-23 19:07:31 Z
+  updated_at: 2010-05-23 19:07:31 Z
+stations_163: 
+  id: 163
+  name: "San Crist\xC3\xB3bal"
+  nicename: san-cristobal
+  lat: 40.3415
+  long: -3.69319
+  created_at: 2010-05-23 19:07:31 Z
+  updated_at: 2010-05-23 19:07:31 Z
+stations_164: 
+  id: 164
+  name: Villaverde Bajo Cruce
+  nicename: villaverde-bajo-cruce
+  lat: 40.3509
+  long: -3.69265
+  created_at: 2010-05-23 19:07:32 Z
+  updated_at: 2010-05-23 19:07:32 Z
+stations_165: 
+  id: 165
+  name: "Ciudad de los \xC3\x83\xC2\x81ngeles"
+  nicename: ciudad-de-los-angeles
+  lat: 40.3596
+  long: -3.69363
+  created_at: 2010-05-23 19:07:32 Z
+  updated_at: 2010-05-23 19:07:32 Z
+stations_166: 
+  id: 166
+  name: "San Ferm\xC3\xADn - Orcasur"
+  nicename: san-fermin-orcasur
+  lat: 40.37
+  long: -3.69417
+  created_at: 2010-05-23 19:07:32 Z
+  updated_at: 2010-05-23 19:07:32 Z
+stations_167: 
+  id: 167
+  name: Hospital 12 de Octubre
+  nicename: hospital-12-de-octubre
+  lat: 40.375
+  long: -3.69585
+  created_at: 2010-05-23 19:07:32 Z
+  updated_at: 2010-05-23 19:07:32 Z
+stations_168: 
+  id: 168
+  name: Almendrales
+  nicename: almendrales
+  lat: 40.3841
+  long: -3.69797
+  created_at: 2010-05-23 19:07:33 Z
+  updated_at: 2010-05-23 19:07:33 Z
+stations_169: 
+  id: 169
+  name: Delicias
+  nicename: delicias
+  lat: 40.3999
+  long: -3.6942
+  created_at: 2010-05-23 19:07:33 Z
+  updated_at: 2010-05-23 19:07:33 Z
+stations_170: 
+  id: 170
+  name: Palos de la Frontera
+  nicename: palos-de-la-frontera
+  lat: 40.4031
+  long: -3.69423
+  created_at: 2010-05-23 19:07:34 Z
+  updated_at: 2010-05-23 19:07:34 Z
+stations_171: 
+  id: 171
+  name: Embajadores
+  nicename: embajadores
+  lat: 40.4051
+  long: -3.70268
+  created_at: 2010-05-23 19:07:34 Z
+  updated_at: 2010-05-23 19:07:34 Z
+stations_172: 
+  id: 172
+  name: "Lavapi\xC3\xA9s"
+  nicename: lavapies
+  lat: 40.4085
+  long: -3.70091
+  created_at: 2010-05-23 19:07:34 Z
+  updated_at: 2010-05-23 19:07:34 Z
+stations_173: 
+  id: 173
+  name: Callao
+  nicename: callao
+  lat: 40.4201
+  long: -3.70584
+  created_at: 2010-05-23 19:07:35 Z
+  updated_at: 2010-05-23 19:07:35 Z
+stations_174: 
+  id: 174
+  name: "Plaza de Espa\xC3\xB1a"
+  nicename: plaza-de-espana
+  lat: 40.4234
+  long: -3.7112
+  created_at: 2010-05-23 19:07:35 Z
+  updated_at: 2010-05-23 19:07:35 Z
+stations_175: 
+  id: 175
+  name: "Ventura Rodr\xC3\xADguez"
+  nicename: ventura-rodriguez
+  lat: 40.4271
+  long: -3.71341
+  created_at: 2010-05-23 19:07:36 Z
+  updated_at: 2010-05-23 19:07:36 Z
+stations_176: 
+  id: 176
+  name: "Hospital Infanta Sof\xC3\xADa"
+  nicename: hospital-infanta-sofia
+  lat: 40.5597
+  long: -3.61184
+  created_at: 2010-05-23 19:07:44 Z
+  updated_at: 2010-05-23 19:07:44 Z
+stations_177: 
+  id: 177
+  name: "Reyes Cat\xC3\xB3licos"
+  nicename: reyes-catolicos
+  lat: 40.5502
+  long: -3.62407
+  created_at: 2010-05-23 19:07:44 Z
+  updated_at: 2010-05-23 19:07:44 Z
+stations_178: 
+  id: 178
+  name: Baunatal
+  nicename: baunatal
+  lat: 40.5544
+  long: -3.63513
+  created_at: 2010-05-23 19:07:44 Z
+  updated_at: 2010-05-23 19:07:44 Z
+stations_179: 
+  id: 179
+  name: Manuel de Falla
+  nicename: manuel-de-falla
+  lat: 40.5501
+  long: -3.64705
+  created_at: 2010-05-23 19:07:45 Z
+  updated_at: 2010-05-23 19:07:45 Z
+stations_180: 
+  id: 180
+  name: "Marqu\xC3\xA9s de La Valdavia"
+  nicename: marques-de-la-valdavia
+  lat: 40.541
+  long: -3.63738
+  created_at: 2010-05-23 19:07:45 Z
+  updated_at: 2010-05-23 19:07:45 Z
+stations_181: 
+  id: 181
+  name: La Moraleja
+  nicename: la-moraleja
+  lat: 40.5317
+  long: -3.6356
+  created_at: 2010-05-23 19:07:45 Z
+  updated_at: 2010-05-23 19:07:45 Z
+stations_182: 
+  id: 182
+  name: La Granja
+  nicename: la-granja
+  lat: 40.5276
+  long: -3.65862
+  created_at: 2010-05-23 19:07:45 Z
+  updated_at: 2010-05-23 19:07:45 Z
+stations_183: 
+  id: 183
+  name: "Ronda de la Comunicaci\xC3\xB3n"
+  nicename: ronda-de-la-comunicacion
+  lat: 40.5155
+  long: -3.66277
+  created_at: 2010-05-23 19:07:46 Z
+  updated_at: 2010-05-23 19:07:46 Z
+stations_184: 
+  id: 184
+  name: Las Tablas
+  nicename: las-tablas
+  lat: 40.5083
+  long: -3.66934
+  created_at: 2010-05-23 19:07:46 Z
+  updated_at: 2010-05-23 19:07:46 Z
+stations_185: 
+  id: 185
+  name: Montecarmelo
+  nicename: montecarmelo
+  lat: 40.5057
+  long: -3.69544
+  created_at: 2010-05-23 19:07:46 Z
+  updated_at: 2010-05-23 19:07:46 Z
+stations_186: 
+  id: 186
+  name: Tres Olivos
+  nicename: tres-olivos
+  lat: 40.5012
+  long: -3.6952
+  created_at: 2010-05-23 19:07:47 Z
+  updated_at: 2010-05-23 19:07:47 Z
+stations_187: 
+  id: 187
+  name: Fuencarral
+  nicename: fuencarral
+  lat: 40.4951
+  long: -3.69283
+  created_at: 2010-05-23 19:07:47 Z
+  updated_at: 2010-05-23 19:07:47 Z
+stations_188: 
+  id: 188
+  name: "Bego\xC3\xB1a"
+  nicename: begona
+  lat: 40.4804
+  long: -3.68584
+  created_at: 2010-05-23 19:07:47 Z
+  updated_at: 2010-05-23 19:07:47 Z
+stations_189: 
+  id: 189
+  name: Cuzco
+  nicename: cuzco
+  lat: 40.4584
+  long: -3.68986
+  created_at: 2010-05-23 19:07:48 Z
+  updated_at: 2010-05-23 19:07:48 Z
+stations_190: 
+  id: 190
+  name: "Santiago Bernab\xC3\xA9u"
+  nicename: santiago-bernabeu
+  lat: 40.4516
+  long: -3.69038
+  created_at: 2010-05-23 19:07:49 Z
+  updated_at: 2010-05-23 19:07:49 Z
+stations_191: 
+  id: 191
+  name: "Alonso Mart\xC3\xADnez"
+  nicename: alonso-martinez
+  lat: 40.4277
+  long: -3.69594
+  created_at: 2010-05-23 19:07:50 Z
+  updated_at: 2010-05-23 19:07:50 Z
+stations_192: 
+  id: 192
+  name: Lago
+  nicename: lago
+  lat: 40.4164
+  long: -3.73563
+  created_at: 2010-05-23 19:07:51 Z
+  updated_at: 2010-05-23 19:07:51 Z
+stations_193: 
+  id: 193
+  name: "Bat\xC3\xA1n"
+  nicename: batan
+  lat: 40.4079
+  long: -3.75311
+  created_at: 2010-05-23 19:07:51 Z
+  updated_at: 2010-05-23 19:07:51 Z
+stations_194: 
+  id: 194
+  name: Casa de Campo
+  nicename: casa-de-campo
+  lat: 40.4032
+  long: -3.7608
+  created_at: 2010-05-23 19:07:51 Z
+  updated_at: 2010-05-23 19:07:51 Z
+stations_195: 
+  id: 195
+  name: "Colonia Jard\xC3\xADn"
+  nicename: colonia-jardin
+  lat: 40.397
+  long: -3.77461
+  created_at: 2010-05-23 19:07:52 Z
+  updated_at: 2010-05-23 19:07:52 Z
+stations_196: 
+  id: 196
+  name: "Aviaci\xC3\xB3n Espa\xC3\xB1ola"
+  nicename: aviacion-espanola
+  lat: 40.3836
+  long: -3.78392
+  created_at: 2010-05-23 19:07:52 Z
+  updated_at: 2010-05-23 19:07:52 Z
+stations_197: 
+  id: 197
+  name: Cuatro Vientos
+  nicename: cuatro-vientos
+  lat: 40.3777
+  long: -3.79152
+  created_at: 2010-05-23 19:07:52 Z
+  updated_at: 2010-05-23 19:07:52 Z
+stations_198: 
+  id: 198
+  name: "Joaqu\xC3\xADn Vilumbrales"
+  nicename: joaquin-vilumbrales
+  lat: 40.3498
+  long: -3.8072
+  created_at: 2010-05-23 19:07:53 Z
+  updated_at: 2010-05-23 19:07:53 Z
+stations_199: 
+  id: 199
+  name: "Col\xC3\xB3n"
+  nicename: colon
+  lat: 40.4254
+  long: -3.691
+  created_at: 2010-05-23 19:07:58 Z
+  updated_at: 2010-05-23 19:08:16 Z
+stations_200: 
+  id: 200
+  name: Serrano
+  nicename: serrano
+  lat: 40.4254
+  long: -3.68663
+  created_at: 2010-05-23 19:07:58 Z
+  updated_at: 2010-05-23 19:07:58 Z
+stations_201: 
+  id: 201
+  name: "Vel\xC3\xA1zquez"
+  nicename: velazquez
+  lat: 40.425
+  long: -3.68291
+  created_at: 2010-05-23 19:07:59 Z
+  updated_at: 2010-05-23 19:07:59 Z
+stations_202: 
+  id: 202
+  name: Lista
+  nicename: lista
+  lat: 40.4292
+  long: -3.67541
+  created_at: 2010-05-23 19:07:59 Z
+  updated_at: 2010-05-23 19:07:59 Z
+stations_203: 
+  id: 203
+  name: Prosperidad
+  nicename: prosperidad
+  lat: 40.4442
+  long: -3.67482
+  created_at: 2010-05-23 19:08:00 Z
+  updated_at: 2010-05-23 19:08:00 Z
+stations_204: 
+  id: 204
+  name: Alfonso XIII
+  nicename: alfonso-xiii
+  lat: 40.4482
+  long: -3.66791
+  created_at: 2010-05-23 19:08:00 Z
+  updated_at: 2010-05-23 19:08:00 Z
+stations_205: 
+  id: 205
+  name: Avenida de la Paz
+  nicename: avenida-de-la-paz
+  lat: 40.4535
+  long: -3.66118
+  created_at: 2010-05-23 19:08:01 Z
+  updated_at: 2010-05-23 19:08:01 Z
+stations_206: 
+  id: 206
+  name: Arturo Soria
+  nicename: arturo-soria
+  lat: 40.4558
+  long: -3.65618
+  created_at: 2010-05-23 19:08:01 Z
+  updated_at: 2010-05-23 19:08:01 Z
+stations_207: 
+  id: 207
+  name: Esperanza
+  nicename: esperanza
+  lat: 40.4594
+  long: -3.64581
+  created_at: 2010-05-23 19:08:01 Z
+  updated_at: 2010-05-23 19:08:01 Z
+stations_208: 
+  id: 208
+  name: Canillas
+  nicename: canillas
+  lat: 40.4638
+  long: -3.63559
+  created_at: 2010-05-23 19:08:02 Z
+  updated_at: 2010-05-23 19:08:02 Z
+stations_209: 
+  id: 209
+  name: San Lorenzo
+  nicename: san-lorenzo
+  lat: 40.4745
+  long: -3.63958
+  created_at: 2010-05-23 19:08:02 Z
+  updated_at: 2010-05-23 19:08:02 Z
+stations_210: 
+  id: 210
+  name: "Parque de Santa Mar\xC3\xADa"
+  nicename: parque-de-santa-maria
+  lat: 40.4771
+  long: -3.64524
+  created_at: 2010-05-23 19:08:02 Z
+  updated_at: 2010-05-23 19:08:02 Z
+stations_211: 
+  id: 211
+  name: Hortaleza
+  nicename: hortaleza
+  lat: 40.4754
+  long: -3.65257
+  created_at: 2010-05-23 19:08:03 Z
+  updated_at: 2010-05-23 19:08:03 Z
+stations_212: 
+  id: 212
+  name: Manoteras
+  nicename: manoteras
+  lat: 40.4769
+  long: -3.6629
+  created_at: 2010-05-23 19:08:03 Z
+  updated_at: 2010-05-23 19:08:03 Z
+stations_213: 
+  id: 213
+  name: Alameda de Osuna
+  nicename: alameda-de-osuna
+  lat: 40.4578
+  long: -3.58752
+  created_at: 2010-05-23 19:08:07 Z
+  updated_at: 2010-05-23 19:08:07 Z
+stations_214: 
+  id: 214
+  name: El Capricho
+  nicename: el-capricho
+  lat: 40.4535
+  long: -3.59401
+  created_at: 2010-05-23 19:08:08 Z
+  updated_at: 2010-05-23 19:08:08 Z
+stations_215: 
+  id: 215
+  name: Canillejas
+  nicename: canillejas
+  lat: 40.4494
+  long: -3.60816
+  created_at: 2010-05-23 19:08:08 Z
+  updated_at: 2010-05-23 19:08:08 Z
+stations_216: 
+  id: 216
+  name: Torre Arias
+  nicename: torre-arias
+  lat: 40.4437
+  long: -3.617
+  created_at: 2010-05-23 19:08:08 Z
+  updated_at: 2010-05-23 19:08:08 Z
+stations_217: 
+  id: 217
+  name: Suanzes
+  nicename: suanzes
+  lat: 40.4408
+  long: -3.62684
+  created_at: 2010-05-23 19:08:09 Z
+  updated_at: 2010-05-23 19:08:09 Z
+stations_218: 
+  id: 218
+  name: Ciudad Lineal
+  nicename: ciudad-lineal
+  lat: 40.438
+  long: -3.63816
+  created_at: 2010-05-23 19:08:09 Z
+  updated_at: 2010-05-23 19:08:09 Z
+stations_219: 
+  id: 219
+  name: Quintana
+  nicename: quintana
+  lat: 40.4336
+  long: -3.64736
+  created_at: 2010-05-23 19:08:10 Z
+  updated_at: 2010-05-23 19:08:10 Z
+stations_220: 
+  id: 220
+  name: El Carmen
+  nicename: el-carmen
+  lat: 40.4319
+  long: -3.65758
+  created_at: 2010-05-23 19:08:10 Z
+  updated_at: 2010-05-23 19:08:10 Z
+stations_221: 
+  id: 221
+  name: "Rub\xC3\xA9n Dar\xC3\xADo"
+  nicename: ruben-dario
+  lat: 40.4332
+  long: -3.68954
+  created_at: 2010-05-23 19:08:11 Z
+  updated_at: 2010-05-23 19:08:11 Z
+stations_222: 
+  id: 222
+  name: Chueca
+  nicename: chueca
+  lat: 40.4229
+  long: -3.69761
+  created_at: 2010-05-23 19:08:12 Z
+  updated_at: 2010-05-23 19:08:12 Z
+stations_223: 
+  id: 223
+  name: La Latina
+  nicename: la-latina
+  lat: 40.4113
+  long: -3.70816
+  created_at: 2010-05-23 19:08:13 Z
+  updated_at: 2010-05-23 19:08:13 Z
+stations_224: 
+  id: 224
+  name: Puerta de Toledo
+  nicename: puerta-de-toledo
+  lat: 40.407
+  long: -3.71105
+  created_at: 2010-05-23 19:08:13 Z
+  updated_at: 2010-05-23 19:08:13 Z
+stations_225: 
+  id: 225
+  name: Acacias
+  nicename: acacias
+  lat: 40.4039
+  long: -3.70665
+  created_at: 2010-05-23 19:08:13 Z
+  updated_at: 2010-05-23 19:08:13 Z
+stations_226: 
+  id: 226
+  name: "Pir\xC3\xA1mides"
+  nicename: piramides
+  lat: 40.4026
+  long: -3.71138
+  created_at: 2010-05-23 19:08:14 Z
+  updated_at: 2010-05-23 19:08:14 Z
+stations_227: 
+  id: 227
+  name: "Marqu\xC3\xA9s de Vadillo"
+  nicename: marques-de-vadillo
+  lat: 40.3974
+  long: -3.71596
+  created_at: 2010-05-23 19:08:14 Z
+  updated_at: 2010-05-23 19:08:14 Z
+stations_228: 
+  id: 228
+  name: Urgel
+  nicename: urgel
+  lat: 40.3934
+  long: -3.72361
+  created_at: 2010-05-23 19:08:14 Z
+  updated_at: 2010-05-23 19:08:14 Z
+stations_229: 
+  id: 229
+  name: Vista Alegre
+  nicename: vista-alegre
+  lat: 40.3888
+  long: -3.73982
+  created_at: 2010-05-23 19:08:15 Z
+  updated_at: 2010-05-23 19:08:15 Z
+stations_230: 
+  id: 230
+  name: Carabanchel
+  nicename: carabanchel
+  lat: 40.3878
+  long: -3.74488
+  created_at: 2010-05-23 19:08:15 Z
+  updated_at: 2010-05-23 19:08:15 Z
+stations_231: 
+  id: 231
+  name: Eugenia de Montijo
+  nicename: eugenia-de-montijo
+  lat: 40.3844
+  long: -3.75121
+  created_at: 2010-05-23 19:08:15 Z
+  updated_at: 2010-05-23 19:08:15 Z
+stations_232: 
+  id: 232
+  name: Aluche
+  nicename: aluche
+  lat: 40.3856
+  long: -3.7608
+  created_at: 2010-05-23 19:08:16 Z
+  updated_at: 2010-05-23 19:08:16 Z
+stations_233: 
+  id: 233
+  name: Empalme
+  nicename: empalme
+  lat: 40.3906
+  long: -3.76535
+  created_at: 2010-05-23 19:08:16 Z
+  updated_at: 2010-05-23 19:08:16 Z
+stations_234: 
+  id: 234
+  name: Campamento
+  nicename: campamento
+  lat: 40.3948
+  long: -3.76813
+  created_at: 2010-05-23 19:08:16 Z
+  updated_at: 2010-05-23 19:08:16 Z
