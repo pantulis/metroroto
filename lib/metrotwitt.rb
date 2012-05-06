@@ -90,6 +90,7 @@ class Metrotwitt
         end
 
       end
+
       if incident.station.blank?
         # Tratamos de encontrar la estacion a la fuerza bruta
         text = text.gsub('#', '')
@@ -113,6 +114,7 @@ class Metrotwitt
         not_found = true if incident.station_id.blank? || incident.line_id.blank?
       end
     end
+
     if not_found
       #no cuadra la estructura estandar del twitt, buscamos a la fuerza bruta!!
       if incident.line_id.blank?
@@ -131,7 +133,9 @@ class Metrotwitt
       if incident.station_id.blank?
         Station.all.each do |station|
           text = text.gsub('#', '')
-          next unless (text.match(station.name) || text.parameterize.match(station.nicename) || text.parameterize.match(station.nicename.gsub('-','')))
+
+          next unless (text.match(station.name) || text.parameterize.match(station.nicename) || text.parameterize.match(station.nicename.gsub('-','')) || text.parameterize.match(station.nicename.gsub('-de-','-')))
+
           station_string = if text.match(station.name)
             text.match(station.name).to_s
           elsif text.parameterize.match(station.nicename.gsub('-',''))
@@ -196,10 +200,11 @@ class Metrotwitt
       user = incident.user ? "by @#{incident.user}" : ""
       with_metroroto = incident.user ? "" : "#{metroroto_hashtag}"
       begin
-        Twitter.update("#{with_metroroto} ##{incident.station.nicename.gsub("-","")}
-        #l#{incident.line.number} #{incident.comment} #{user}")
+        str = ("#{with_metroroto} ##{incident.station.nicename.gsub("-","")} #l#{incident.line.number} #{user} #{incident.comment}" )
+        Twitter.update(str[0..139])
+        Rails.logger.info "TWEET: #{str[0..139]}"
       rescue Exception => e
-        logger.error "No se ha podido retwittear la incidencia #{incident.id} por alguna razón: #{e}"
+        Rails.logger.error "No se ha podido retwittear la incidencia #{incident.id} por alguna razón: #{e}"
       end
     end
   end
