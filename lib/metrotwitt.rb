@@ -6,24 +6,24 @@ class Metrotwitt
     since = [Incident.last_twitterid || 0,FailedTwitt.last_twitterid || 0].max || 0
 
     twitts = Twitter.search('#metroroto', :since_id => since)
+    new_teets = 0
 
     twitts.reverse! #Esto se hace para que guarde primero los más antiguos, y se retwitteen en orden.
     Rails.logger.info "Cargando #{twitts.size} nuevos twitts" unless twitts.size == 0
 
     twitts.each do |twitt|     
-
       Rails.logger.info("Analizando #{twitt.inspect}")
-
-      self.parse_twitt(twitt) unless (twitt.from_user == "metroroto" || Incident.find_by_twitter_id(twitt["id"]) || twitt.text.match("RT"))
+      if !(twitt.from_user == "metroroto" || Incident.find_by_twitter_id(twitt["id"]) || twitt.text.match("RT")) then
+        self.parse_twitt(twitt)
+        new_teets = new_teets + 1
+      end
     end
 
     mention_twitts = Twitter.search('@metroroto', :since_id => since)
     mention_twitts.reverse! #Esto se hace para que guarde primero los más antiguos, y se retwitteen en orden.
 
-
-    new_tweets = 0
-
     mention_twitts.each do |twitt|
+      Rails.logger.info("Analizando #{twitt.inspect}")
       if !(twitt.from_user == "metroroto" || Incident.find_by_twitter_id(twitt["id"]) || twitt.text.match("RT")) then
         self.parse_twitt(twitt) 
         new_tweets = new_tweets + 1
