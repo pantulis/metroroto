@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 
 class Metrotwitt
 
@@ -165,7 +165,20 @@ class Metrotwitt
       incident.station_string = station_string
       incident.comment = text_arr.blank? ? text.gsub(/#(.*)/,'') : text_arr.join(' ')
       incident.save! unless Incident.find_by_twitter_id(twitt["id"])
+      
+      # FIXME genero un FailedTwitt con :status => ok 
+      fail = FailedTwitt.new(:twitter_id => incident.twitter_id,
+                             :date => incident.date, :user => incident.user,
+                             :station_string => station_string,
+                             :twitt_body => text,
+                             :status => FailedTwitt::STATUS_OK)
+      if incident.line_id 
+        fail.line_id = incident.line_id
+      end
+
+      fail.save!
       res = true
+      
     else
       # aleprosos que no encuentra nada
       station_string ||= ""
@@ -173,7 +186,8 @@ class Metrotwitt
       fail = FailedTwitt.new(:twitter_id => incident.twitter_id, 
                              :date => incident.date, :user => incident.user, 
                              :station_string => station_string, 
-                             :twitt_body => text )
+                             :twitt_body => text,
+                             :status => FailedTwitt::STATUS_FAIL)
       if incident.line_id
         fail.line_id = incident.line_id
       end

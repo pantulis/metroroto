@@ -167,6 +167,7 @@ class MetrotwittTest < ActiveSupport::TestCase
     assert_equal Incident.last.line.id,3
     assert_equal Incident.last.station.nicename, 'delicias'
     assert_equal Incident.last.comment, "Nuevo twitt de prueba"
+    assert_equal 1, FailedTwitt.ok.size 
   end
   
   test "current debe reconocer el patron: sin linea, comment delante" do
@@ -179,20 +180,20 @@ class MetrotwittTest < ActiveSupport::TestCase
   
   test "no debe reconocer el patron: sin linea,y con estación ambigua" do
     Metrotwitt.parse_twitt(create_twitt("Nuevo twitt de prueba #metroroto #sol "))
-    assert_equal 0,Incident.all.size
-    assert_equal 1, FailedTwitt.all.size
+    assert_equal 0, Incident.all.size
+    assert_equal 1, FailedTwitt.failed.size
   end
   
   test "no debe reconocer el patron: sin linea,y con estación ambigua v2" do
     Metrotwitt.parse_twitt(create_twitt("Nuevo twitt de prueba #metroroto #cuatrocaminos "))
-    assert_equal 0,Incident.all.size
-    assert_equal 1, FailedTwitt.all.size
+    assert_equal 0, Incident.all.size
+    assert_equal 1, FailedTwitt.failed.size
   end
   
   test "no debe reconocer el patron: otra cosa en vez de L o l para la linea" do
     Metrotwitt.parse_twitt(create_twitt("Nuevo twitt de prueba #metroroto #p2 #wadus "))
-    assert_equal 0,Incident.all.size
-    assert_equal 1, FailedTwitt.all.size
+    assert_equal 0, Incident.all.size
+    assert_equal 1, FailedTwitt.failed.size
   end
   
   test "debe reconocer el patron: con line y ñ" do

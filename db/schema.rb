@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120501200621) do
+ActiveRecord::Schema.define(:version => 20120507212141) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -70,6 +70,7 @@ ActiveRecord::Schema.define(:version => 20120501200621) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "twitt_body"
+    t.integer  "status",                      :default => 0
   end
 
   create_table "incident_templates", :force => true do |t|
