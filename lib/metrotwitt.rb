@@ -6,7 +6,7 @@ class Metrotwitt
     since = [Incident.last_twitterid || 0,FailedTwitt.last_twitterid || 0].max || 0
 
     twitts = Twitter.search('#metroroto', :since_id => since)
-    new_teets = 0
+    new_tweets = 0
 
     twitts.reverse! #Esto se hace para que guarde primero los más antiguos, y se retwitteen en orden.
     Rails.logger.info "Cargando #{twitts.size} nuevos twitts" unless twitts.size == 0
