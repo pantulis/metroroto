@@ -20,7 +20,7 @@ end
 
 group :development do
   gem 'sqlite3'
-  gem 'mysql2'
+  gem 'pg'
   gem 'heroku'
   gem 'debugger'
 end
