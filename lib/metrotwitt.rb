@@ -77,11 +77,12 @@ class Metrotwitt
           text_arr.delete_at(index)
         end
       end
+
       if line = Line.find_by_number(line_number)
         incident.line_id = line.id
         stations = self.search_stations(station_string,line.stations)
         unless stations.blank?
-          incident.station_id = stations.uniq.first.id
+          incident.station_id = stations.all.uniq.first.id
         end
       else
         # no nos manda la linea en el twitt
@@ -107,7 +108,7 @@ class Metrotwitt
           if line
             stations = self.search_stations(station_string,line.stations)
             unless stations.blank?
-              incident.station_id = stations.uniq.first.id
+              incident.station_id = stations.all.uniq.first.id
             end
           else
             incident.station_id = station.id
@@ -149,7 +150,7 @@ class Metrotwitt
           if line
             stations = self.search_stations(station_string,line.stations)
             unless stations.blank?
-              incident.station_id = stations.uniq.first.id
+              incident.station_id = stations.all.uniq.first.id
             end
           else
             incident.station_id = station.id
