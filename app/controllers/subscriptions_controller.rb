@@ -14,13 +14,13 @@ class SubscriptionsController < ApplicationController
     end
 
     respond_to do |format|
+      format.js  { render :layout => false }
+
       format.html do
         flash[:notice] = "Hemos creado correctamente tu suscripción :)"
       end
-      format.js do
-        render :js => '$("form#new_subscription button").hide(); $("data").html="<p class="subscription_notice">¡Tu suscripción ha sido guardada correctamente :) !</p>";'
-      end
 
+      
     end
   end
   
