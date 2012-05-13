@@ -77,8 +77,9 @@ Metroroto::Application.configure do
     :enable_starttls_auto => true,
     :authentication => :login,
     :user_name => ENV['GMAIL_USER'],
-    :password => "ENV['GMAIL_PASSWORD']
+    :password => ENV['GMAIL_PASSWORD']
   }
+
 end
 
 Metroroto::Application.config.middleware.use ExceptionNotifier, 
