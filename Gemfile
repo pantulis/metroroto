@@ -15,6 +15,7 @@ gem 'hashie'
 gem 'formtastic', '~> 2.1.1'
 gem 'activeadmin'
 gem 'meta_search', '>= 1.1.0.pre'
+gem 'ratom', :require => 'atom'
 
 group :production do
   gem 'pg'
