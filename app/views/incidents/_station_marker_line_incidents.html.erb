@@ -3,7 +3,7 @@
   
   <% incidents.each_with_index do |incident, index| %>
   <div class="incident<%= " extra " if index > 0 %>">
-    <p class="date"><%= l(incident.date, :format => "long") %></p>
+    <p class="date"><%= l incident.date, :format => :long %></p>
     <p class="comment"><span>Comentario:</span> <%= escape_javascript(incident.comment.squish) %></p>
   </div>
   <% end %>

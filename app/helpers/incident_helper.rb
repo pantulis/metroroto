@@ -7,7 +7,7 @@ module IncidentHelper
      append_incident_marker_js(js_code, incident, div_info)
     end unless incidents.blank?
     
-    js_code
+    js_code.html_safe
   end
 
   def incident_icon(incident)
@@ -53,7 +53,7 @@ module IncidentHelper
       append_incident_marker_js(js_code, incidents_by_line.values.flatten.sort_by(&:date).first, div_info)
     end unless incidents_by_station.blank?
     
-    js_code
+    js_code.html_safe
   end
 end
 
