@@ -19,7 +19,7 @@ class Station < ActiveRecord::Base
    }
   
   scope :by_line, lambda { |line|
-    {:include => :line_stations, :conditions => "line_stations.line_id = '#{line}'"}
+    {:include => :line_stations, :conditions => "line_stations.line_id = '#{line}'", :order => 'line_stations.id asc'}
   }
   
   scope :find_outspaces, lambda {|string|
